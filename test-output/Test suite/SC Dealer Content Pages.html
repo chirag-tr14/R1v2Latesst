@@ -1,0 +1,979 @@
+<html>
+<head>
+<title>TestNG:  SC Dealer Content Pages</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SC Dealer Content Pages</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>29/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jan 24 14:42:15 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>33 seconds (33937 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.r1v2.backend.modules.Dealer.NewDealerContentPage.dlrContentpagePG_7()'><b>dlrContentpagePG_7</b><br>Test class: com.r1v2.backend.modules.Dealer.NewDealerContentPage<br/>
+<a href="#Output-747837998" onClick='toggleBox("Output-747837998", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-747837998" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-747837998">
+<br>[Ljava.lang.String;@54f5d8d8 is present<br/>
+<br>[Ljava.lang.String;@23a4098c is present<br/>
+<br>Element is selected <br/>
+<br>Two Coloumn  Radio Button default is  selected on  PageBuilder page<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError:  Selecting Department for in Dealer Level   expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:568)
+	at com.r1v2.backend.modules.Dealer.NewDealerContentPage.dlrContentpagePG_7(NewDealerContentPage.java:113)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace747837998", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace747837998'><pre>java.lang.AssertionError:  Selecting Department for in Dealer Level   expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:568)
+	at com.r1v2.backend.modules.Dealer.NewDealerContentPage.dlrContentpagePG_7(NewDealerContentPage.java:113)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Dealer.NewDealerContentPage@4bbfb90a</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.r1v2.backend.modules.Dealer.NewDealerContentPage.dlrContentpagePG_10()'><b>dlrContentpagePG_10</b><br>Test class: com.r1v2.backend.modules.Dealer.NewDealerContentPage<br/>
+<a href="#Output-1623429688" onClick='toggleBox("Output-1623429688", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1623429688" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1623429688">
+<br>[Ljava.lang.String;@5a25e1aa is present<br/>
+<br>Clicked on <br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.r1v2.backend.modules.Dealer.NewDealerContentPage@4bbfb90a</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Dealer.NewDealerContentPage.dlrContentpagePG_11()'><b>dlrContentpagePG_11</b><br>Test class: com.r1v2.backend.modules.Dealer.NewDealerContentPage<br/>
+<a href="#Output-1235529620" onClick='toggleBox("Output-1235529620", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1235529620" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1235529620">
+<br>[Ljava.lang.String;@44710180 is present<br/>
+<br>Clicked on Logout<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Dealer.NewDealerContentPage@4bbfb90a</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Dealer.NewDealerContentPage.dlrContentpagePG_2()'><b>dlrContentpagePG_2</b><br>Test class: com.r1v2.backend.modules.Dealer.NewDealerContentPage<br/>
+<a href="#Output-76876138" onClick='toggleBox("Output-76876138", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-76876138" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-76876138">
+<br>[Ljava.lang.String;@28efff6b is present<br/>
+<br>Element Displayed Logout<br/>
+<br>logout link is displayed on Home page<br/>
+<br>[Ljava.lang.String;@5e48d59 is present<br/>
+<br>Element Displayed Change password<br/>
+<br>change password is displayed on Home page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Dealer.NewDealerContentPage@4bbfb90a</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Dealer.NewDealerContentPage.dlrContentpagePG_3()'><b>dlrContentpagePG_3</b><br>Test class: com.r1v2.backend.modules.Dealer.NewDealerContentPage<br/>
+<a href="#Output-1947509877" onClick='toggleBox("Output-1947509877", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1947509877" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1947509877">
+<br>[Ljava.lang.String;@5d65ba29 is present<br/>
+<br>Clicked on Select Organization<br/>
+<br>[Ljava.lang.String;@151b00f3 is present<br/>
+<br>Clicked on Site List<br/>
+<br>[Ljava.lang.String;@3c74bf5c is present<br/>
+<br>Entered value aadhimaruti.stg-indemosite.com<br/>
+<br>[Ljava.lang.String;@6369129f is present<br/>
+<br>Clicked on Aadhi Cars (P) Ltd.<br/>
+<br>[Ljava.lang.String;@258f0339 is present<br/>
+<br>Clicked on Site Builder<br/>
+<br>[Ljava.lang.String;@1bf561e4 is present<br/>
+<br>Clicked on Page Builder<br/>
+<br>[Ljava.lang.String;@39b5d7b6 is present<br/>
+<br>Clicked on Add new Page<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.r1v2.backend.modules.Dealer.NewDealerContentPage@4bbfb90a</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Dealer.NewDealerContentPage.dlrContentpagePG_4()'><b>dlrContentpagePG_4</b><br>Test class: com.r1v2.backend.modules.Dealer.NewDealerContentPage<br/>
+<a href="#Output-499969282" onClick='toggleBox("Output-499969282", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-499969282" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-499969282">
+<br>[Ljava.lang.String;@1da9209e is present<br/>
+<br>Clicked on Next<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Dealer.NewDealerContentPage@4bbfb90a</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Dealer.NewDealerContentPage.dlrContentpagePG_5()'><b>dlrContentpagePG_5</b><br>Test class: com.r1v2.backend.modules.Dealer.NewDealerContentPage<br/>
+<a href="#Output-926370796" onClick='toggleBox("Output-926370796", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-926370796" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-926370796">
+<br>[Ljava.lang.String;@30963ee5 is present<br/>
+<br>Element Displayed Next<br/>
+<br>Field is mandatory<br/>
+<br>[Ljava.lang.String;@36d94258 is present<br/>
+<br>Clicked on Next<br/>
+<br>Alert Popup is Display<br/>
+<br>[Ljava.lang.String;@42a30132 is present<br/>
+<br>Entered value Content-Dealermaruthi<br/>
+<br>[Ljava.lang.String;@8e790d2 is present<br/>
+<br>Element Displayed Next<br/>
+<br>Field is mandatory<br/>
+<br>[Ljava.lang.String;@2bcfccfe is present<br/>
+<br>Clicked on Next<br/>
+<br>Alert Popup is Display<br/>
+<br>[Ljava.lang.String;@32b90c4a is present<br/>
+<br>Entered value content-dlr-level45<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.r1v2.backend.modules.Dealer.NewDealerContentPage@4bbfb90a</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Dealer.NewDealerContentPage.dlrContentpagePG_6()'><b>dlrContentpagePG_6</b><br>Test class: com.r1v2.backend.modules.Dealer.NewDealerContentPage<br/>
+<a href="#Output-395934731" onClick='toggleBox("Output-395934731", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-395934731" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-395934731">
+<br>[Ljava.lang.String;@4c90c1cc is present<br/>
+<br>Clicked on Title of the page * (this will appear at the top of the page and in the browser tab)
+  URL * (this will be the web address of the page on the site- it is recommended not to use characters with accents or other 'special characters' in the URL Best to use only letters, numbers and dashes to seperate words.)
+-en-in.htm
+Department
+                    Service-Sathyamangalam Main Road
+                    Sales-Tirunelveli Sales
+                    Service-Tirunelveli Service
+                    Sales-Sathyamangalam Main Road
+                    Maruti Driving School-Saravanampatti
+                    Sales-Kinathukadavu
+                    Service-Kotagiri
+                    Service-Vadavalli
+                    Sales-Vadavalli
+                    Maruti Driving School-Vadavalli
+                    Service-Avinashi Road
+                    Sales-Avinashi Road
+                    Service-Kinathukadavu
+                    Used Car Sales-Avinashi Road
+                    Sales-Kotagiri
+                    True Value-True Value
+                    Insurance-Sathyamangalam Main Road
+                    Used Car Sales-Sathyamangalam Main Road
+
+Layout:
+1 Column Layout
+2 Column Layout
+Zone Group - Lower:
+Select Zone
+Accessory Specials-Lower
+Body Shop-Lower
+Bodystyles
+Dealer Details page
+Dealer List
+Demo Vehicle Inventory Detail-Lower
+Demo Vehicle Inventory Listing-Lower
+FAQ-Lower
+Finance-Lower
+Fleet Sales-Lower
+Gas Station Store-Lower
+Gas Station-Lower
+General Content-Lower
+Glass-Lower
+Human Resources-Lower
+Insurance-Lower
+Interior Renovation-Lower
+Inventory Details Overlay
+Inventory Details page
+Inventory Listing Page
+Inventory Permanent Banner
+Inventory Promotions
+New Car Specials-Lower
+New Vehicle Inventory Detail-Lower
+New Vehicle Inventory Listing-Lower
+New Vehicle Sales Form-Lower
+Parts Specials-Lower
+Parts-Lower
+Press Releases-Lower
+Quick Service-Lower
+Service Specials-Lower
+Service-Lower
+Testimonials-Lower
+Tires-Lower
+Toolkit Model
+Toolkit Second Row Banners
+Toolkit Third Row Banners
+Towing-Lower
+Transport-Lower
+Used Car Specials-Lower
+Used Vehicle Inventory Detail-Lower
+Used Vehicle Inventory Listing-Lower
+Used Vehicle Sales Form-Lower
+User Profile-Lower
+User Registration
+User Reviews
+Vehicle Rental-Lower
+Vehicle Wash-Lower
+Wholesale Vehicle Inventory Detail-Lower
+Wholesale Vehicle Inventory Listing-Lower
+Zone Group - Upper:
+Select Zone
+Accessory Specials-Upper
+Appointment Zones
+Body Shop-Upper
+Demo Vehicle Inventory Listing-Upper
+FAQ-Upper
+Finance-Upper
+Fleet Sales-Upper
+Gas Station Store-Upper
+Gas Station-Upper
+General Content-Upper
+Glass-Upper
+Human Resources-Upper
+Insurance-Upper
+Interior Renovation-Upper
+New Car Specials-Upper
+New Vehicle Inventory Listing-Upper
+New Vehicle Sales Form-Upper
+Parts Specials-Upper
+Parts-Upper
+Press Releases-Upper
+Quick Service-Upper
+Service Specials-Upper
+Service-Upper
+Testimonials-Upper
+Tires-Upper
+Towing-Upper
+Transport-Upper
+Used Car Specials-Upper
+Used Vehicle Inventory Listing-Upper
+Used Vehicle Sales Form-Upper
+User Profile-Upper
+Vehicle Rental-Upper
+Vehicle Wash-Upper
+Wholesale Vehicle Inventory Listing-Upper
+HEADER_TAGS: (Maximum 250 characters)
+Cancel Back Next<br/>
+<br>[Ljava.lang.String;@6a73a0f1 is present<br/>
+<br>content-dlr-level45-en-in.htm URL available is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Dealer.NewDealerContentPage@4bbfb90a</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Dealer.NewDealerContentPage.dlrContentpagePG_8()'><b>dlrContentpagePG_8</b><br>Test class: com.r1v2.backend.modules.Dealer.NewDealerContentPage<br/>
+<a href="#Output-1598494091" onClick='toggleBox("Output-1598494091", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1598494091" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1598494091">
+<br>[Ljava.lang.String;@39be2a59 is present<br/>
+<br>Clicked on Next<br/>
+<br>[Ljava.lang.String;@3db0137b is present<br/>
+<br>Clicked on Description<br/>
+<br>[Ljava.lang.String;@314a18a3 is present<br/>
+<br>Clicked on X<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Dealer.NewDealerContentPage@4bbfb90a</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Dealer.NewDealerContentPage.dlrContentpagePG_9()'><b>dlrContentpagePG_9</b><br>Test class: com.r1v2.backend.modules.Dealer.NewDealerContentPage<br/>
+<a href="#Output-590367893" onClick='toggleBox("Output-590367893", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-590367893" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-590367893">
+<br>[Ljava.lang.String;@6b6b0195 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@116e0f45 is present<br/>
+<br>Entered value Responsive Content for Dealer<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Dealer.NewDealerContentPage@4bbfb90a</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Group.NewGroupContentPage.groupContentPG_10()'><b>groupContentPG_10</b><br>Test class: com.r1v2.backend.modules.Group.NewGroupContentPage<br/>
+<a href="#Output-1666839747" onClick='toggleBox("Output-1666839747", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1666839747" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1666839747">
+<br>[Ljava.lang.String;@75c13356 is present<br/>
+<br>Clicked on <br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.r1v2.backend.modules.Group.NewGroupContentPage@30b8a058</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Group.NewGroupContentPage.groupContentPG_11()'><b>groupContentPG_11</b><br>Test class: com.r1v2.backend.modules.Group.NewGroupContentPage<br/>
+<a href="#Output-728956561" onClick='toggleBox("Output-728956561", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-728956561" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-728956561">
+<br>[Ljava.lang.String;@147d6141 is present<br/>
+<br>Clicked on Logout<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Group.NewGroupContentPage@30b8a058</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Group.NewGroupContentPage.groupContentPG_2()'><b>groupContentPG_2</b><br>Test class: com.r1v2.backend.modules.Group.NewGroupContentPage<br/>
+<a href="#Output-760712452" onClick='toggleBox("Output-760712452", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-760712452" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-760712452">
+<br>[Ljava.lang.String;@6fef7566 is present<br/>
+<br>Element Displayed Logout<br/>
+<br>logout link is displayed on Home page<br/>
+<br>[Ljava.lang.String;@4d9d6272 is present<br/>
+<br>Element Displayed Change password<br/>
+<br>change password is displayed on Home page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Group.NewGroupContentPage@30b8a058</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Group.NewGroupContentPage.groupContentPG_3()'><b>groupContentPG_3</b><br>Test class: com.r1v2.backend.modules.Group.NewGroupContentPage<br/>
+<a href="#Output-1225671631" onClick='toggleBox("Output-1225671631", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1225671631" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1225671631">
+<br>[Ljava.lang.String;@2c5e06dd is present<br/>
+<br>Clicked on Select Organization<br/>
+<br>[Ljava.lang.String;@1905eeea is present<br/>
+<br>Clicked on Aadhi Group<br/>
+<br>[Ljava.lang.String;@672020f9 is present<br/>
+<br>Clicked on Site Builder<br/>
+<br>[Ljava.lang.String;@4377aa66 is present<br/>
+<br>Clicked on Page Builder<br/>
+<br>[Ljava.lang.String;@528949c3 is present<br/>
+<br>Clicked on Add new Page<br/>
+<br>[Ljava.lang.String;@17c2c3fb is present<br/>
+<br>Clicked on Next<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.r1v2.backend.modules.Group.NewGroupContentPage@30b8a058</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Group.NewGroupContentPage.groupContentPG_4()'><b>groupContentPG_4</b><br>Test class: com.r1v2.backend.modules.Group.NewGroupContentPage<br/>
+<a href="#Output-1572902902" onClick='toggleBox("Output-1572902902", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1572902902" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1572902902">
+<br>[Ljava.lang.String;@6762a259 is present<br/>
+<br>Clicked on Next<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Group.NewGroupContentPage@30b8a058</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Group.NewGroupContentPage.groupContentPG_5()'><b>groupContentPG_5</b><br>Test class: com.r1v2.backend.modules.Group.NewGroupContentPage<br/>
+<a href="#Output-1755845329" onClick='toggleBox("Output-1755845329", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1755845329" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1755845329">
+<br>[Ljava.lang.String;@1b957baf is present<br/>
+<br>Element Displayed Next<br/>
+<br>Field is mandatory<br/>
+<br>[Ljava.lang.String;@722dbdde is present<br/>
+<br>Clicked on Next<br/>
+<br>Alert Popup is Display<br/>
+<br>[Ljava.lang.String;@3dd96f79 is present<br/>
+<br>Entered value Content-GroupAadhi<br/>
+<br>[Ljava.lang.String;@15b5c11f is present<br/>
+<br>Element Displayed Next<br/>
+<br>Field is mandatory<br/>
+<br>[Ljava.lang.String;@76df3081 is present<br/>
+<br>Clicked on Next<br/>
+<br>Alert Popup is Display<br/>
+<br>[Ljava.lang.String;@7b6c6e1f is present<br/>
+<br>Entered value content-group-level45<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.r1v2.backend.modules.Group.NewGroupContentPage@30b8a058</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Group.NewGroupContentPage.groupContentPG_6()'><b>groupContentPG_6</b><br>Test class: com.r1v2.backend.modules.Group.NewGroupContentPage<br/>
+<a href="#Output-876161664" onClick='toggleBox("Output-876161664", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-876161664" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-876161664">
+<br>[Ljava.lang.String;@48746c68 is present<br/>
+<br>Clicked on Title of the page * (this will appear at the top of the page and in the browser tab)
+  URL * (this will be the web address of the page on the site- it is recommended not to use characters with accents or other 'special characters' in the URL Best to use only letters, numbers and dashes to seperate words.)
+-en-in.htm
+Department (the department selected here will be used if you use any 'merge codes' to place the department hours, or phone numbers on the page. Also, the department selected will be used to route the leads for any forms added on the page.)
+           Body Shop
+           Boutique Accessoires
+           Breakdown Service
+           Car Wash
+           Finance
+           Gas Station
+           Gas Station Store
+           Human Resources
+           Insurance 
+           Interior Renovation
+           New Car Sales
+           Office
+           Parts
+           Pro Shop
+           Rapid Service
+           Rent a Car
+           Service
+           Used Car Sales
+
+Layout:
+1 Column Layout
+2 Column Layout
+Zone Group - Lower:
+Select Zone
+Accessory Specials-Lower
+Body Shop-Lower
+Bodystyles
+Dealer Details page
+Dealer List
+Demo Vehicle Inventory Detail-Lower
+Demo Vehicle Inventory Listing-Lower
+FAQ-Lower
+Finance-Lower
+Fleet Sales-Lower
+Gas Station Store-Lower
+Gas Station-Lower
+General Content-Lower
+Glass-Lower
+Human Resources-Lower
+Insurance-Lower
+Interior Renovation-Lower
+Inventory Details Overlay
+Inventory Details page
+Inventory Listing Page
+Inventory Permanent Banner
+Inventory Promotions
+New Car Specials-Lower
+New Vehicle Inventory Detail-Lower
+New Vehicle Inventory Listing-Lower
+New Vehicle Sales Form-Lower
+Parts Specials-Lower
+Parts-Lower
+Press Releases-Lower
+Quick Service-Lower
+Service Specials-Lower
+Service-Lower
+Testimonials-Lower
+Tires-Lower
+Toolkit Model
+Toolkit Second Row Banners
+Toolkit Third Row Banners
+Towing-Lower
+Transport-Lower
+Used Car Specials-Lower
+Used Vehicle Inventory Detail-Lower
+Used Vehicle Inventory Listing-Lower
+Used Vehicle Sales Form-Lower
+User Profile-Lower
+User Registration
+User Reviews
+Vehicle Rental-Lower
+Vehicle Wash-Lower
+Wholesale Vehicle Inventory Detail-Lower
+Wholesale Vehicle Inventory Listing-Lower
+Zone Group - Upper:
+Select Zone
+Accessory Specials-Upper
+Appointment Zones
+Body Shop-Upper
+Demo Vehicle Inventory Listing-Upper
+FAQ-Upper
+Finance-Upper
+Fleet Sales-Upper
+Gas Station Store-Upper
+Gas Station-Upper
+General Content-Upper
+Glass-Upper
+Human Resources-Upper
+Insurance-Upper
+Interior Renovation-Upper
+New Car Specials-Upper
+New Vehicle Inventory Listing-Upper
+New Vehicle Sales Form-Upper
+Parts Specials-Upper
+Parts-Upper
+Press Releases-Upper
+Quick Service-Upper
+Service Specials-Upper
+Service-Upper
+Testimonials-Upper
+Tires-Upper
+Towing-Upper
+Transport-Upper
+Used Car Specials-Upper
+Used Vehicle Inventory Listing-Upper
+Used Vehicle Sales Form-Upper
+User Profile-Upper
+Vehicle Rental-Upper
+Vehicle Wash-Upper
+Wholesale Vehicle Inventory Listing-Upper
+Allow Cloning at Lower Level 
+HEADER_TAGS: (Maximum 250 characters)
+Cancel Back Next<br/>
+<br>[Ljava.lang.String;@6ebb3008 is present<br/>
+<br>content-group-level45-en-in.htm URL available is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Group.NewGroupContentPage@30b8a058</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Group.NewGroupContentPage.groupContentPG_7()'><b>groupContentPG_7</b><br>Test class: com.r1v2.backend.modules.Group.NewGroupContentPage<br/>
+<a href="#Output-1640418808" onClick='toggleBox("Output-1640418808", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1640418808" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1640418808">
+<br>[Ljava.lang.String;@71e25e17 is present<br/>
+<br>[Ljava.lang.String;@eae208d is present<br/>
+<br>Element is selected <br/>
+<br>Two Coloumn  Radio Button default is  selected on  PageBuilder page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Group.NewGroupContentPage@30b8a058</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Group.NewGroupContentPage.groupContentPG_8()'><b>groupContentPG_8</b><br>Test class: com.r1v2.backend.modules.Group.NewGroupContentPage<br/>
+<a href="#Output-859689898" onClick='toggleBox("Output-859689898", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-859689898" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-859689898">
+<br>[Ljava.lang.String;@78788e7c is present<br/>
+<br>Clicked on Next<br/>
+<br>[Ljava.lang.String;@12d2d00f is present<br/>
+<br>Clicked on Description<br/>
+<br>[Ljava.lang.String;@6ba2bd51 is present<br/>
+<br>Clicked on X<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.r1v2.backend.modules.Group.NewGroupContentPage@30b8a058</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Group.NewGroupContentPage.groupContentPG_9()'><b>groupContentPG_9</b><br>Test class: com.r1v2.backend.modules.Group.NewGroupContentPage<br/>
+<a href="#Output-907009772" onClick='toggleBox("Output-907009772", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-907009772" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-907009772">
+<br>[Ljava.lang.String;@42ed56be is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@65ba82a8 is present<br/>
+<br>Entered value Responsive Content for Group <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Group.NewGroupContentPage@30b8a058</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.NewOemContentPage.oemContentPG_10()'><b>oemContentPG_10</b><br>Test class: com.r1v2.backend.modules.Oem.NewOemContentPage<br/>
+<a href="#Output-1821703391" onClick='toggleBox("Output-1821703391", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1821703391" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1821703391">
+<br>[Ljava.lang.String;@2946681b is present<br/>
+<br>Clicked on <br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.r1v2.backend.modules.Oem.NewOemContentPage@7494e528</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.NewOemContentPage.oemContentPG_11()'><b>oemContentPG_11</b><br>Test class: com.r1v2.backend.modules.Oem.NewOemContentPage<br/>
+<a href="#Output-848477612" onClick='toggleBox("Output-848477612", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-848477612" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-848477612">
+<br>[Ljava.lang.String;@64679744 is present<br/>
+<br>Clicked on Logout<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Oem.NewOemContentPage@7494e528</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.NewOemContentPage.oemContentPG_2()'><b>oemContentPG_2</b><br>Test class: com.r1v2.backend.modules.Oem.NewOemContentPage<br/>
+<a href="#Output-722562057" onClick='toggleBox("Output-722562057", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-722562057" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-722562057">
+<br>[Ljava.lang.String;@5439eace is present<br/>
+<br>Element Displayed Logout<br/>
+<br>logout link is displayed on Home page<br/>
+<br>[Ljava.lang.String;@4c0ecdad is present<br/>
+<br>Element Displayed Change password<br/>
+<br>change password is displayed on Home page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Oem.NewOemContentPage@7494e528</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.NewOemContentPage.oemContentPG_3()'><b>oemContentPG_3</b><br>Test class: com.r1v2.backend.modules.Oem.NewOemContentPage<br/>
+<a href="#Output-788759875" onClick='toggleBox("Output-788759875", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-788759875" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-788759875">
+<br>[Ljava.lang.String;@7658bd4d is present<br/>
+<br>Clicked on Select Organization<br/>
+<br>[Ljava.lang.String;@3623e53f is present<br/>
+<br>Clicked on Honda (CAR) (India)<br/>
+<br>[Ljava.lang.String;@3ad579f7 is present<br/>
+<br>Clicked on Site Builder<br/>
+<br>[Ljava.lang.String;@2751d69c is present<br/>
+<br>Clicked on Page Builder<br/>
+<br>[Ljava.lang.String;@72e42250 is present<br/>
+<br>Clicked on Add new Page<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.r1v2.backend.modules.Oem.NewOemContentPage@7494e528</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.NewOemContentPage.oemContentPG_4()'><b>oemContentPG_4</b><br>Test class: com.r1v2.backend.modules.Oem.NewOemContentPage<br/>
+<a href="#Output-72271619" onClick='toggleBox("Output-72271619", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-72271619" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-72271619">
+<br>[Ljava.lang.String;@1ea73f46 is present<br/>
+<br>Clicked on Next<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Oem.NewOemContentPage@7494e528</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.NewOemContentPage.oemContentPG_5()'><b>oemContentPG_5</b><br>Test class: com.r1v2.backend.modules.Oem.NewOemContentPage<br/>
+<a href="#Output-1340360909" onClick='toggleBox("Output-1340360909", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1340360909" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1340360909">
+<br>[Ljava.lang.String;@1b26e47b is present<br/>
+<br>Element Displayed Next<br/>
+<br>Field is mandatory<br/>
+<br>[Ljava.lang.String;@73697c46 is present<br/>
+<br>Clicked on Next<br/>
+<br>Alert Popup is Display<br/>
+<br>[Ljava.lang.String;@35848ff8 is present<br/>
+<br>Entered value Content-oemHonda<br/>
+<br>[Ljava.lang.String;@297f0eab is present<br/>
+<br>Element Displayed Next<br/>
+<br>Field is mandatory<br/>
+<br>[Ljava.lang.String;@31b650ef is present<br/>
+<br>Clicked on Next<br/>
+<br>Alert Popup is Display<br/>
+<br>[Ljava.lang.String;@1eef4c55 is present<br/>
+<br>Entered value english-oem-level45<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.r1v2.backend.modules.Oem.NewOemContentPage@7494e528</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.NewOemContentPage.oemContentPG_6()'><b>oemContentPG_6</b><br>Test class: com.r1v2.backend.modules.Oem.NewOemContentPage<br/>
+<a href="#Output-1091795054" onClick='toggleBox("Output-1091795054", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1091795054" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1091795054">
+<br>[Ljava.lang.String;@7d24f3ad is present<br/>
+<br>Clicked on Title of the page * (this will appear at the top of the page and in the browser tab)
+  URL * (this will be the web address of the page on the site- it is recommended not to use characters with accents or other 'special characters' in the URL Best to use only letters, numbers and dashes to seperate words.)
+-en-in.htm
+Department (the department selected here will be used if you use any 'merge codes' to place the department hours, or phone numbers on the page. Also, the department selected will be used to route the leads for any forms added on the page.)
+           Body Shop
+           Boutique Accessoires
+           Breakdown Service
+           Car Wash
+           Finance
+           Gas Station
+           Gas Station Store
+           Human Resources
+           Insurance 
+           Interior Renovation
+           New Car Sales
+           Office
+           Parts
+           Pro Shop
+           Rapid Service
+           Rent a Car
+           Service
+           Used Car Sales
+
+Layout:
+1 Column Layout
+2 Column Layout
+Zone Group - Lower:
+Select Zone
+Accessory Specials-Lower
+Body Shop-Lower
+Bodystyles
+Dealer Details page
+Dealer List
+Demo Vehicle Inventory Detail-Lower
+Demo Vehicle Inventory Listing-Lower
+FAQ-Lower
+Finance-Lower
+Fleet Sales-Lower
+Gas Station Store-Lower
+Gas Station-Lower
+General Content-Lower
+Glass-Lower
+Human Resources-Lower
+Insurance-Lower
+Interior Renovation-Lower
+Inventory Details Overlay
+Inventory Details page
+Inventory Listing Page
+Inventory Permanent Banner
+Inventory Promotions
+New Car Specials-Lower
+New Vehicle Inventory Detail-Lower
+New Vehicle Inventory Listing-Lower
+New Vehicle Sales Form-Lower
+Parts Specials-Lower
+Parts-Lower
+Press Releases-Lower
+Quick Service-Lower
+Service Specials-Lower
+Service-Lower
+Testimonials-Lower
+Tires-Lower
+Toolkit Model
+Toolkit Second Row Banners
+Toolkit Third Row Banners
+Towing-Lower
+Transport-Lower
+Used Car Specials-Lower
+Used Vehicle Inventory Detail-Lower
+Used Vehicle Inventory Listing-Lower
+Used Vehicle Sales Form-Lower
+User Profile-Lower
+User Registration
+User Reviews
+Vehicle Rental-Lower
+Vehicle Wash-Lower
+Wholesale Vehicle Inventory Detail-Lower
+Wholesale Vehicle Inventory Listing-Lower
+Zone Group - Upper:
+Select Zone
+Accessory Specials-Upper
+Appointment Zones
+Body Shop-Upper
+Demo Vehicle Inventory Listing-Upper
+FAQ-Upper
+Finance-Upper
+Fleet Sales-Upper
+Gas Station Store-Upper
+Gas Station-Upper
+General Content-Upper
+Glass-Upper
+Human Resources-Upper
+Insurance-Upper
+Interior Renovation-Upper
+New Car Specials-Upper
+New Vehicle Inventory Listing-Upper
+New Vehicle Sales Form-Upper
+Parts Specials-Upper
+Parts-Upper
+Press Releases-Upper
+Quick Service-Upper
+Service Specials-Upper
+Service-Upper
+Testimonials-Upper
+Tires-Upper
+Towing-Upper
+Transport-Upper
+Used Car Specials-Upper
+Used Vehicle Inventory Listing-Upper
+Used Vehicle Sales Form-Upper
+User Profile-Upper
+Vehicle Rental-Upper
+Vehicle Wash-Upper
+Wholesale Vehicle Inventory Listing-Upper
+Allow Cloning at Lower Level 
+HEADER_TAGS: (Maximum 250 characters)
+Cancel Back Next<br/>
+<br>[Ljava.lang.String;@56b1595f is present<br/>
+<br>english-oem-level45-en-in.htm URL available is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Oem.NewOemContentPage@7494e528</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.NewOemContentPage.oemContentPG_7()'><b>oemContentPG_7</b><br>Test class: com.r1v2.backend.modules.Oem.NewOemContentPage<br/>
+<a href="#Output-833750459" onClick='toggleBox("Output-833750459", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-833750459" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-833750459">
+<br>[Ljava.lang.String;@6a238505 is present<br/>
+<br>Element is selected <br/>
+<br>Two Coloumn  Radio Button default is  selected on  PageBuilder page<br/>
+<br>[Ljava.lang.String;@6c93194e is present<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Oem.NewOemContentPage@7494e528</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.NewOemContentPage.oemContentPG_8()'><b>oemContentPG_8</b><br>Test class: com.r1v2.backend.modules.Oem.NewOemContentPage<br/>
+<a href="#Output-1921214770" onClick='toggleBox("Output-1921214770", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1921214770" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1921214770">
+<br>[Ljava.lang.String;@460218e7 is present<br/>
+<br>Clicked on Next<br/>
+<br>[Ljava.lang.String;@197552c9 is present<br/>
+<br>Clicked on Description<br/>
+<br>[Ljava.lang.String;@5dd88b92 is present<br/>
+<br>Clicked on X<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Oem.NewOemContentPage@7494e528</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.NewOemContentPage.oemContentPG_9()'><b>oemContentPG_9</b><br>Test class: com.r1v2.backend.modules.Oem.NewOemContentPage<br/>
+<a href="#Output-419383359" onClick='toggleBox("Output-419383359", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-419383359" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-419383359">
+<br>[Ljava.lang.String;@5e0dbc42 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@2837cc55 is present<br/>
+<br>Entered value Responsive  Content<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Oem.NewOemContentPage@7494e528</td></tr>
+</table><p>
+</body>
+</html>

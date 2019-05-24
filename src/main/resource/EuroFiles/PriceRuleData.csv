@@ -1,0 +1,5 @@
+Discount,Dealer,DealerId,Price Category,Vehicle Type,Provider,Make,Model,Trim,EndDate,Discount Type,DiscountValue
+TradeinDiscount,citroen-annemasse.stg-eudemosite.com,102878,Trade in Discount,New / Demonstration,IZMOVN-PGA-CITROEN#SADAL CITROËN ANNECY#SEYNOD,,,,,Flat,6000
+DealerDiscount,citroen-annemasse.stg-eudemosite.com,102878,Dealer Discount,New / Demonstration,IZMOVN-PGA-CITROEN#SADAL CITROËN ANNECY#SEYNOD,CITROEN,C3,Graphic PureTech 82 5 Portes,,Percentage,4
+OemDiscount,renault-annemasse,103209,Oem Discount,Used,PGA#RE74C1,,,,,Flat,8000
+GreenDiscount,renault-annemasse.stg-eudemosite.com,103209,Green Discount,Used,PGA#RE74C1,,,,,Flat,5000

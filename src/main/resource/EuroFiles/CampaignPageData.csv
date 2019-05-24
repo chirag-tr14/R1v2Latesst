@@ -1,0 +1,12 @@
+Level,DealerId,Dealers,Title,Title1,Url,Url1,Department,Form_category,Responsive_Content,PageTitle,UrlPattern,LocalId,FormValue
+OEM,Citroen (CAR) (France),Citroen,campaign-France,campaign-English,french-oem-level,eng-oem-level-url,Used Car Sales,,Responsive campaign for Oem,SEO List, -fr-fr.htm URL available,1036,Formulaire Campagne
+Group,102863,PGA,campaign-Group,,campaign-dlr-group,,Used Car Sales,Evènements VN,Responsive campaign for Group ,SEO List, -fr-fr.htm URL available,1036,Formulaire Campagne
+Dealer,102880,citroen-annecy.stg-eudemosite.com,campaign-Dealer,,campaign-dlr-level,,Véhicules d'occasion,Evènements VO,Responsive campaign for Dealer,SEO List, -fr-fr.htm URL available,1036,Formulaire Campagne
+EditDealer,102880,citroen-annecy.stg-eudemosite.com,Updatde_Title_Dlr,,updated-url-dealer-fr-fr.htm,,Véhicules neufs,Offre promotionnelle VN (Locale),Updated Responsive campaign Data,SEO List,  URL available,1036,Formulaire Campagne
+EditGroup,102863,PGA,Updated_Title_Grp,,updated-url-grp-fr-fr.htm,,New Car Sales,Evènements VO,Updated Responsive campaign Data,SEO List,  URL available,1036,Formulaire Campagne
+EditOem,Citroen (CAR) (France),Citroen,Updated_french_Title,Updated_Englsih_Title,french-oem-level-url-fr-fr.htm,eng-oem-level-url-en-us.htm,New Car Sales,,Updated Responsive French campaign oem,SEO List,  URL available,1036,Formulaire Campagne
+FrontendDlr,102880,https://citroen-annecy.stg-eudemosite.com/,campaign-Dealer,,,,,,Responsive campaign for Dealer,,,,
+FrontendGrp,102863,http://renault-marignane.stg-eudemosite.com/,campaign-Group,,,,,,Responsive campaign for Group updated Text,,,,
+FrontendOem,175,http://citroen-nice.stg-eudemosite.com/,campaign-France,,,,,,Responsive French campaign oem,,,,
+FrontendUpdatedDlr,102880,https://citroen-annecy.stg-eudemosite.com/,Updatde_Title_Dlr,,,,,,Updated Responsive campaign Data,,,,
+FrontendUpdatedOem,175,http://citroen-nice.stg-eudemosite.com/,Updated_french_Title,,,,,,Updated Responsive French campaign oem,,,,

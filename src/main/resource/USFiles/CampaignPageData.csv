@@ -1,0 +1,13 @@
+Level,DealerId,Dealers,Title,Title1,Url,Url1,Department,Responsive_Content,Responsive_campaign1,PageTitle,UrlPattern,LocalId,FormValue
+OEM,Nissan (CAR) (Mexico),Nissan,campaign-pageSpanish,campaign-pageEnglish,campaign-page_english,campaign-page_mexcico,Used Cars for Sale, campaign Page Data for MX Server, campaign Page Data for English ,SEO List, -es-mx.htm URL available,2058,Campaña formulario estándar
+Group,100092,Autocom,campaign-pagegroup,,campaign-page_group,,Used Cars for Sale, campaign Page Data for MX Server,,SEO List, -es-mx.htm URL available,2058,Campaña formulario estándar
+Dealer,100150,nissancelaya.stg-izdemosite.com,campaign-page_Dealer,,campaign-page_dlr,,Venta de Autos, campaign Page Data for MX Server,,SEO List, -es-mx.htm URL available,2058,Campaña formulario estándar
+EditDealer,100150,nissancelaya.stg-izdemosite.com,updated-DealerTitle,,updated-page-dlr-es-mx.htm,,Refacciones, Updated campaign Page Data for MX Server,,SEO List,  URL available,2058,Campaña formulario estándar
+EditGroup,100092,Autocom,updated-pagegroup,,updated-page-group-es-mx.htm,,New Cars,  Updated Page Data for MX Server,,SEO List,  URL available,2058,Campaña formulario estándar
+EditOem,Nissan (CAR) (Mexico),Nissan,UpdatedOemSpanish,UpdatedOemEnglish,updated-page_english-es-mx.htm,updated-page_mexco-en-us.htm,Body Shop, Updatedcampaign Page Data for MX Server,,SEO List,,,
+FrontendDlr,100150,http://nissancelaya.stg-izdemosite.com/,campaign-page_Dealer,,,,, campaign Page Data for MX Server,,,,,
+FrontendGrp,100092,http://infinitipolanco.stg-izdemosite.com/,campaign-pagegroup,,,,, campaign Page Data for MX Server,,,,,
+FrontendOem,65,http://nissansantaanita.stg-izdemosite.com/,campaign-pageSpanish,,,,, campaign Page Data for MX Server,,,,,
+FrontendUpdatedDlr,100150,http://nissancelaya.stg-izdemosite.com/,updated-DealerTitle,,,,, campaign Page Data for MX Server,,,,,
+FrontendUpdatedOem,65,http://nissansantaanita.stg-izdemosite.com/,UpdatedOemSpanish,,,,, Updatedcampaign Page Data for MX Server,,,,,
+FrontendUpdatedGroup,100092,http://infinitipolanco.stg-izdemosite.com/,updated-pagegroup,,,,,  Updated Page Data for MX Server,,,,,

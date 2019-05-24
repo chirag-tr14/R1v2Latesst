@@ -1,0 +1,7 @@
+Level,DealerId,Dealers,Title,Title1,Url,Url1,Department,Responsive_aboutus,Responsive_aboutus1,PageTitle,UrlPattern
+OEM,Citroen (CAR) (France),Citroen,aboutus-oem,aboutus-oem,french-oem-level1,english-oem-level1,Used Car Sales,Responsive French aboutus,Responsive English aboutus,SEO List,-fr-fr.htm URL available
+Group,102863,PGA,aboutus-Group,,aboutus-group-level1,,Used Car Sales,Responsive aboutus for Group ,,SEO List,-fr-fr.htm URL available
+Dealer,102880,citroen-annecy.stg-eudemosite.com,aboutus-Dealer,,aboutus-dlr-level1,,Véhicules d'occasion,Responsive aboutus for Dealer,,SEO List,-fr-fr.htm URL available
+FrontendDlr,102880,https://citroen-annecy.stg-eudemosite.com/,aboutus-Dealer,,,,,,,,
+FrontendGrp,102863,http://renault-marignane.stg-eudemosite.com/,aboutus-Group,,,,,,,,
+FrontendOem,175,http://citroen-nice.stg-eudemosite.com/,aboutus-oem,,,,,,,,

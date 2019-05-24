@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name= "Test suite"  verbose="10"  thread-count="10"  >
+ 
+	 
+ 	 <!-- 	<test  name="Scenario Login Test Cases">
+    <classes>
+      <class name="com.r1v2.backend.Login.ScenarioLogin"/>
+    </classes>
+	</test>  --> 
+	
+	 
+ 	<!--  <test name="SC Add Content  Pages" parallel="classes">
+	 <classes>
+		<class name="com.r1v2.backend.modules.Group.AddGroupContentPage" />
+		<class name="com.r1v2.backend.modules.Oem.AddOemContentPage" />
+		<class name="com.r1v2.backend.modules.Dealer.AddDealerContentPage" />
+	</classes>
+	</test> 
+	 -->
+	
+	 <test name="Add Front end Contnet Pages" parallel="classes">
+		<classes>
+			<class name="com.r1v2.frontend.Modules.Dealer.AddFrontendContentPageDelaer" />
+			<class name="com.r1v2.frontend.Modules.Group.AddFrontendContentPageGroup" />
+			<class name="com.r1v2.frontend.Modules.Oem.AddFrontendContentPageOem" />
+		</classes>
+	</test>
+	
+		<!-- <test  name="SC Edit   Content Pages"  parallel="classes">
+		<classes>
+			<class name="com.r1v2.backend.modules.Oem.EditOemContentPage" />
+			<class name="com.r1v2.backend.modules.Group.EditGroupContentPage" />
+			<class name="com.r1v2.backend.modules.Dealer.EditDealerContentPage" />
+		</classes>		
+	</test>
+	
+	<test name="Updated Front end Content Pages" parallel="classes">
+		<classes>
+			<class name="com.r1v2.frontend.Modules.Dealer.UpdatedFrontendContentPageDealer" />
+			<class name="com.r1v2.frontend.Modules.Oem.UpdatedFrontendContentPageOem" />
+			<class name="com.r1v2.frontend.Modules.Group.UpdatedFrontendContentPageGroup" />
+		</classes>
+	</test>  
+ 	
+ 	
+ 	<test name="SC Delete Content Pages" parallel="classes">
+		<classes>
+			<class name="com.r1v2.backend.modules.Oem.DeleteOemContentPage" />
+			<class name="com.r1v2.backend.modules.Dealer.DeleteDealerContentPage" />
+			<class name="com.r1v2.backend.modules.Group.DeleteGroupContentPage" />
+		</classes>
+	</test>
+	
+	<test name="Deleted  Front end  Content Pages" parallel="classes">
+		<classes>
+			<class name="com.r1v2.frontend.Modules.Dealer.DeleteFrontendContentPageDealer" />
+			<class name="com.r1v2.frontend.Modules.Oem.DeletedFrontendContentPageOem" />
+			<class name="com.r1v2.frontend.Modules.Group.DeletedFrontendContentpageGroup" />
+		</classes>
+	 </test> 
+	 -->
+	
+	
+	<!-- <test name="SC Add Campaign  Pages" parallel="classes">
+	 <classes>
+		<class name="com.r1v2.backend.modules.Group.AddGroupCampaignPage" />
+		<class name="com.r1v2.backend.modules.Oem.AddOemCampaignPage" />
+		<class name="com.r1v2.backend.modules.Dealer.AddDealerCampaignPage" />
+	</classes>
+	</test>
+	
+	 <test name="Add Front end Campaign Pages" parallel="classes">
+		<classes>
+			<class name="com.r1v2.frontend.Modules.Dealer.AddFrontendCampPageDealer" />
+			<class name="com.r1v2.frontend.Modules.Group.AddFrontendCampPageGroup" />
+			<class name="com.r1v2.frontend.Modules.Oem.AddFrontendCampPageOem" />
+		</classes>
+	</test>
+	
+	
+	<test  name="SC Edit   Campaign  Pages"  parallel="classes">
+		<classes>
+			<class name="com.r1v2.backend.modules.Oem.EditOemCampaignPage" />
+			<class name="com.r1v2.backend.modules.Group.EditGroupCampaignPage" />
+			<class name="com.r1v2.backend.modules.Dealer.EditDealerCampaignPage" />
+		</classes>		
+	</test>
+	
+	<test name="Updated Front end Campaign Pages" parallel="classes">
+		<classes>
+			<class name="com.r1v2.frontend.Modules.Dealer.UpdatedFrontendCampPageDealer" />
+			<class name="com.r1v2.frontend.Modules.Oem.UpdatedFrontendCampPageOem" />
+			<class name="com.r1v2.frontend.Modules.Group.UpdatedFrontendCampPageGroup" />
+		</classes>
+	</test> 
+	
+	<test name="SC Delete Campaign  Pages" parallel="classes">
+		<classes>
+			<class name="com.r1v2.backend.modules.Oem.DeleteOemCampaignPage" />
+			<class name="com.r1v2.backend.modules.Dealer.DeleteDealerCampaignPage" />
+			<class name="com.r1v2.backend.modules.Group.DeleteGroupCampaignPage" />
+		</classes>
+	</test>
+	
+	<test name="Deleted  Front end  Campaign Pages" parallel="classes">
+		<classes>
+			<class name="com.r1v2.frontend.Modules.Dealer.DeleteFrontendCampPageDealer" />
+			<class name="com.r1v2.frontend.Modules.Oem.DeletedFrontendCampPageOem" />
+			<class name="com.r1v2.frontend.Modules.Group.DeletedFrontendCampPageGroup" />
+		</classes>
+	 </test>   -->
+	
+ </suite>

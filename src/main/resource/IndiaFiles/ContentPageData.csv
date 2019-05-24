@@ -1,0 +1,13 @@
+Level,DealerId,Dealers,Title,Url,Department,Responsive_Content,PageTitle,UrlPattern
+OEM,Honda (CAR) (India),Honda,Content-oemHonda,english-oem-level,Used Car Sales,Responsive  Content,SEO List, -en-in.htm URL available
+Group,100563,Aadhi,Content-GroupAadhi,content-group-level,Used Car Sales,Responsive Content for Group ,SEO List, -en-in.htm URL available
+Dealer,100654,aadhimaruti.stg-indemosite.com,Content-Dealermaruthi,content-dlr-level,Sales-Vadavalli,Responsive Content for Dealer,SEO List, -en-in.htm URL available
+EditDealer,100654,aadhimaruti.stg-indemosite.com,updated Content-Dealer,updated-dlr-level-en-in.htm,Sales-Tirunelveli Sales,Updated Content for Dealer,SEO List,  URL available
+EditGroup,100563,Aadhi,updates-group,update-group-level-en-in.htm,Service,updated Responsive Content for Group ,SEO List,  URL available
+EditOem,Honda (CAR) (India),Honda,updatedContent-oem,updated-oem-level-en-in.htm,New Car Sales,Updated Responsive  Content,SEO List, URL available
+FrontendDlr,100654,http://aadhimaruti.stg-indemosite.com/,Content-Dealermaruthi,,,Responsive Content for Dealer,,
+FrontendGrp,100563,http://aadhihonda.stg-indemosite.com/,Content-GroupAadhi,,,Responsive Content for Group ,,
+FrontendOem,488,http://greenhonda.stg-indemosite.com/,Content-oemHonda,,,Responsive  Content,,
+FrontendUpdatedDlr,100654,http://aadhimaruti.stg-indemosite.com/,updated Content-Dealer,,,Updated Content for Dealer,,
+FrontendUpdatedOem,488,http://greenhonda.stg-indemosite.com/,updatedContent-oem,,,Updated Responsive  Content,,
+FrontendUpdatedGrp,100563,http://aadhihonda.stg-indemosite.com/,updates-group,,,updated Responsive Content for Group ,,

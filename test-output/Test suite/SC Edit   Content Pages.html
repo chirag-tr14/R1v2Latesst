@@ -1,0 +1,597 @@
+<html>
+<head>
+<title>TestNG:  SC Edit   Content Pages</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SC Edit   Content Pages</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>29/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Feb 06 18:08:00 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>88 seconds (88685 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.r1v2.backend.modules.Group.EditGroupContentPage.groupEditContentPage_7()'><b>groupEditContentPage_7</b><br>Test class: com.r1v2.backend.modules.Group.EditGroupContentPage<br/>
+<a href="#Output-1790146562" onClick='toggleBox("Output-1790146562", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1790146562" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1790146562">
+<br>[Ljava.lang.String;@142e7960 is present<br/>
+<br>[Ljava.lang.String;@2f8ba233 is present<br/>
+<br>Clicked on Next<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError:  Selecting Department for in EditGroup Level   expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:568)
+	at com.r1v2.backend.modules.Group.EditGroupContentPage.groupEditContentPage_7(EditGroupContentPage.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1790146562", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1790146562'><pre>java.lang.AssertionError:  Selecting Department for in EditGroup Level   expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:568)
+	at com.r1v2.backend.modules.Group.EditGroupContentPage.groupEditContentPage_7(EditGroupContentPage.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>1</td>
+<td>com.r1v2.backend.modules.Group.EditGroupContentPage@536aaa8d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.r1v2.backend.modules.Dealer.EditDealerContentPage.dlrContentpagePG_11()'><b>dlrContentpagePG_11</b><br>Test class: com.r1v2.backend.modules.Dealer.EditDealerContentPage<br/>
+<a href="#Output-1804273378" onClick='toggleBox("Output-1804273378", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1804273378" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1804273378">
+<br>[Ljava.lang.String;@5988cc9f is present<br/>
+<br>Clicked on Logout<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Dealer.EditDealerContentPage@e320068</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Dealer.EditDealerContentPage.dlrEditContentPage_10()'><b>dlrEditContentPage_10</b><br>Test class: com.r1v2.backend.modules.Dealer.EditDealerContentPage<br/>
+<a href="#Output-406304639" onClick='toggleBox("Output-406304639", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-406304639" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-406304639">
+<br>[Ljava.lang.String;@68d162c7 is present<br/>
+<br>Clicked on <br/>
+</div>
+</td>
+<td></td>
+<td>40</td>
+<td>com.r1v2.backend.modules.Dealer.EditDealerContentPage@e320068</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Dealer.EditDealerContentPage.dlrEditContentPage_2()'><b>dlrEditContentPage_2</b><br>Test class: com.r1v2.backend.modules.Dealer.EditDealerContentPage<br/>
+<a href="#Output-818556715" onClick='toggleBox("Output-818556715", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-818556715" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-818556715">
+<br>[Ljava.lang.String;@71ef01e2 is present<br/>
+<br>Element Displayed Logout<br/>
+<br>logout link is displayed on Home page<br/>
+<br>[Ljava.lang.String;@67c4fd31 is present<br/>
+<br>Element Displayed Change password<br/>
+<br>change password is displayed on Home page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Dealer.EditDealerContentPage@e320068</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Dealer.EditDealerContentPage.dlrEditContentPage_3()'><b>dlrEditContentPage_3</b><br>Test class: com.r1v2.backend.modules.Dealer.EditDealerContentPage<br/>
+<a href="#Output-1314712998" onClick='toggleBox("Output-1314712998", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1314712998" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1314712998">
+<br>[Ljava.lang.String;@11b4ff56 is present<br/>
+<br>Clicked on Select Organization<br/>
+<br>[Ljava.lang.String;@497ea5ac is present<br/>
+<br>Clicked on Site List<br/>
+<br>[Ljava.lang.String;@14178bbe is present<br/>
+<br>Entered value nissancelaya.stg-izdemosite.com<br/>
+<br>[Ljava.lang.String;@2e0301ec is present<br/>
+<br>Clicked on NISSAN AUTOCOM CELAYA<br/>
+<br>[Ljava.lang.String;@6ae916f0 is present<br/>
+<br>Clicked on Site Builder<br/>
+<br>[Ljava.lang.String;@40d437c3 is present<br/>
+<br>Clicked on Page Builder<br/>
+<br>[Ljava.lang.String;@b2b7fd7 is present<br/>
+<br>Entered value content-page_dlr<br/>
+<br>[Ljava.lang.String;@745be1be is present<br/>
+<br>Clicked on <br/>
+</div>
+</td>
+<td></td>
+<td>34</td>
+<td>com.r1v2.backend.modules.Dealer.EditDealerContentPage@e320068</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Dealer.EditDealerContentPage.dlrEditContentPage_4()'><b>dlrEditContentPage_4</b><br>Test class: com.r1v2.backend.modules.Dealer.EditDealerContentPage<br/>
+<a href="#Output-1117840282" onClick='toggleBox("Output-1117840282", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1117840282" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1117840282">
+<br>[Ljava.lang.String;@65cbd68a is present<br/>
+<br>Entered value updated-DealerTitle<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Dealer.EditDealerContentPage@e320068</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Dealer.EditDealerContentPage.dlrEditContentPage_5()'><b>dlrEditContentPage_5</b><br>Test class: com.r1v2.backend.modules.Dealer.EditDealerContentPage<br/>
+<a href="#Output-532816202" onClick='toggleBox("Output-532816202", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-532816202" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-532816202">
+<br>[Ljava.lang.String;@2e15741c is present<br/>
+<br>Clicked on <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Dealer.EditDealerContentPage@e320068</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Dealer.EditDealerContentPage.dlrEditContentPage_6()'><b>dlrEditContentPage_6</b><br>Test class: com.r1v2.backend.modules.Dealer.EditDealerContentPage<br/>
+<a href="#Output-2092661478" onClick='toggleBox("Output-2092661478", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2092661478" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2092661478">
+<br>[Ljava.lang.String;@6de2b351 is present<br/>
+<br>Entered value updated-page-dlr-es-mx.htm<br/>
+<br>[Ljava.lang.String;@64da8e4c is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@46570737 is present<br/>
+<br>updated-page-dlr-es-mx.htm  URL available is not displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Dealer.EditDealerContentPage@e320068</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Dealer.EditDealerContentPage.dlrEditContentPage_7()'><b>dlrEditContentPage_7</b><br>Test class: com.r1v2.backend.modules.Dealer.EditDealerContentPage<br/>
+<a href="#Output-265872054" onClick='toggleBox("Output-265872054", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-265872054" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-265872054">
+<br>[Ljava.lang.String;@52ccb297 is present<br/>
+<br>[Ljava.lang.String;@10a2578e is present<br/>
+<br>Clicked on Next<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.r1v2.backend.modules.Dealer.EditDealerContentPage@e320068</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Dealer.EditDealerContentPage.dlrEditContentPage_8()'><b>dlrEditContentPage_8</b><br>Test class: com.r1v2.backend.modules.Dealer.EditDealerContentPage<br/>
+<a href="#Output-792691921" onClick='toggleBox("Output-792691921", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-792691921" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-792691921">
+<br>[Ljava.lang.String;@2b0c380b is present<br/>
+<br>Clicked on Description<br/>
+<br>[Ljava.lang.String;@348aa918 is present<br/>
+<br>Clicked on X<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Dealer.EditDealerContentPage@e320068</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Dealer.EditDealerContentPage.dlrEditContentPage_9()'><b>dlrEditContentPage_9</b><br>Test class: com.r1v2.backend.modules.Dealer.EditDealerContentPage<br/>
+<a href="#Output-5227561" onClick='toggleBox("Output-5227561", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-5227561" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-5227561">
+<br>[Ljava.lang.String;@32b86a9d is present<br/>
+<br>Clicked on  Content Page Data for MX Server<br/>
+<br>[Ljava.lang.String;@4c337fc3 is present<br/>
+<br>Entered value  Updated Content Page Data for MX Server<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Dealer.EditDealerContentPage@e320068</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.EditOemContentPage.editoemContentPG_10()'><b>editoemContentPG_10</b><br>Test class: com.r1v2.backend.modules.Oem.EditOemContentPage<br/>
+<a href="#Output-1295521623" onClick='toggleBox("Output-1295521623", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1295521623" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1295521623">
+<br>[Ljava.lang.String;@28d423c is present<br/>
+<br>Clicked on <br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>com.r1v2.backend.modules.Oem.EditOemContentPage@59e5ddf</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.EditOemContentPage.editoemContentPG_11()'><b>editoemContentPG_11</b><br>Test class: com.r1v2.backend.modules.Oem.EditOemContentPage<br/>
+<a href="#Output-1486999431" onClick='toggleBox("Output-1486999431", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1486999431" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1486999431">
+<br>[Ljava.lang.String;@7ce3f25f is present<br/>
+<br>Clicked on Logout<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Oem.EditOemContentPage@59e5ddf</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.EditOemContentPage.editoemContentPG_2()'><b>editoemContentPG_2</b><br>Test class: com.r1v2.backend.modules.Oem.EditOemContentPage<br/>
+<a href="#Output-1099444927" onClick='toggleBox("Output-1099444927", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1099444927" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1099444927">
+<br>[Ljava.lang.String;@72b3411d is present<br/>
+<br>Element Displayed Logout<br/>
+<br>logout link is displayed on Home page<br/>
+<br>[Ljava.lang.String;@2126c274 is present<br/>
+<br>Element Displayed Change password<br/>
+<br>change password is displayed on Home page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Oem.EditOemContentPage@59e5ddf</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.EditOemContentPage.editoemContentPG_3()'><b>editoemContentPG_3</b><br>Test class: com.r1v2.backend.modules.Oem.EditOemContentPage<br/>
+<a href="#Output-486241632" onClick='toggleBox("Output-486241632", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-486241632" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-486241632">
+<br>[Ljava.lang.String;@375b9d88 is present<br/>
+<br>Clicked on Select Organization<br/>
+<br>[Ljava.lang.String;@2bf2ac94 is present<br/>
+<br>Clicked on Nissan (CAR) (Mexico)<br/>
+<br>[Ljava.lang.String;@21a64b64 is present<br/>
+<br>Clicked on Site Builder<br/>
+<br>[Ljava.lang.String;@af51866 is present<br/>
+<br>Clicked on Page Builder<br/>
+<br>[Ljava.lang.String;@22663cae is present<br/>
+<br>Entered value content-page_english<br/>
+<br>[Ljava.lang.String;@1c30867 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@2c912c96 is present<br/>
+<br>Clicked on <br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.r1v2.backend.modules.Oem.EditOemContentPage@59e5ddf</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.EditOemContentPage.editoemContentPG_4()'><b>editoemContentPG_4</b><br>Test class: com.r1v2.backend.modules.Oem.EditOemContentPage<br/>
+<a href="#Output-229379110" onClick='toggleBox("Output-229379110", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-229379110" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-229379110">
+<br>[Ljava.lang.String;@3c6dd534 is present<br/>
+<br>Entered value UpdatedOemEnglish<br/>
+<br>[Ljava.lang.String;@3c8dc397 is present<br/>
+<br>Entered value UpdatedOemSpanish<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Oem.EditOemContentPage@59e5ddf</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.EditOemContentPage.editoemContentPG_5()'><b>editoemContentPG_5</b><br>Test class: com.r1v2.backend.modules.Oem.EditOemContentPage<br/>
+<a href="#Output-705250626" onClick='toggleBox("Output-705250626", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-705250626" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-705250626">
+<br>[Ljava.lang.String;@57bc78c6 is present<br/>
+<br>Entered value updated-page_mexco-en-us.htm<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Oem.EditOemContentPage@59e5ddf</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.EditOemContentPage.editoemContentPG_6()'><b>editoemContentPG_6</b><br>Test class: com.r1v2.backend.modules.Oem.EditOemContentPage<br/>
+<a href="#Output-1228911228" onClick='toggleBox("Output-1228911228", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1228911228" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1228911228">
+<br>[Ljava.lang.String;@3c8dfd67 is present<br/>
+<br>Clicked on <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Oem.EditOemContentPage@59e5ddf</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.EditOemContentPage.editoemContentPG_7()'><b>editoemContentPG_7</b><br>Test class: com.r1v2.backend.modules.Oem.EditOemContentPage<br/>
+<a href="#Output-1693441465" onClick='toggleBox("Output-1693441465", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1693441465" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1693441465">
+<br>[Ljava.lang.String;@216153a0 is present<br/>
+<br>Entered value updated-page_english-es-mx.htm<br/>
+<br>[Ljava.lang.String;@415d4379 is present<br/>
+<br>Clicked on <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Oem.EditOemContentPage@59e5ddf</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.EditOemContentPage.editoemContentPG_8()'><b>editoemContentPG_8</b><br>Test class: com.r1v2.backend.modules.Oem.EditOemContentPage<br/>
+<a href="#Output-1149758184" onClick='toggleBox("Output-1149758184", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1149758184" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1149758184">
+<br>[Ljava.lang.String;@c2589d is present<br/>
+<br>[Ljava.lang.String;@53cc91c4 is present<br/>
+<br>Clicked on Next<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.r1v2.backend.modules.Oem.EditOemContentPage@59e5ddf</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.EditOemContentPage.editoemContentPG_9()'><b>editoemContentPG_9</b><br>Test class: com.r1v2.backend.modules.Oem.EditOemContentPage<br/>
+<a href="#Output-1551395600" onClick='toggleBox("Output-1551395600", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1551395600" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1551395600">
+<br>[Ljava.lang.String;@41f658bd is present<br/>
+<br>Clicked on Description<br/>
+<br>[Ljava.lang.String;@622f621 is present<br/>
+<br>Clicked on X<br/>
+<br>[Ljava.lang.String;@40c983e7 is present<br/>
+<br>Clicked on  Content Page Data for MX Server<br/>
+<br>[Ljava.lang.String;@3c39deaf is present<br/>
+<br>Entered value  UpdatedContent Page Data for MX Server<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Oem.EditOemContentPage@59e5ddf</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Group.EditGroupContentPage.groupEditContentPage_10()'><b>groupEditContentPage_10</b><br>Test class: com.r1v2.backend.modules.Group.EditGroupContentPage<br/>
+<a href="#Output-1501735611" onClick='toggleBox("Output-1501735611", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1501735611" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1501735611">
+<br>[Ljava.lang.String;@715d5180 is present<br/>
+<br>Clicked on <br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>com.r1v2.backend.modules.Group.EditGroupContentPage@536aaa8d</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Group.EditGroupContentPage.groupEditContentPage_11()'><b>groupEditContentPage_11</b><br>Test class: com.r1v2.backend.modules.Group.EditGroupContentPage<br/>
+<a href="#Output-2084082142" onClick='toggleBox("Output-2084082142", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2084082142" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2084082142">
+<br>[Ljava.lang.String;@f3702c3 is present<br/>
+<br>Clicked on Logout<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Group.EditGroupContentPage@536aaa8d</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Group.EditGroupContentPage.groupEditContentPage_2()'><b>groupEditContentPage_2</b><br>Test class: com.r1v2.backend.modules.Group.EditGroupContentPage<br/>
+<a href="#Output-398513995" onClick='toggleBox("Output-398513995", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-398513995" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-398513995">
+<br>[Ljava.lang.String;@7ae71d7a is present<br/>
+<br>Element Displayed Logout<br/>
+<br>logout link is displayed on Home page<br/>
+<br>[Ljava.lang.String;@27c9342b is present<br/>
+<br>Element Displayed Change password<br/>
+<br>change password is displayed on Home page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Group.EditGroupContentPage@536aaa8d</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Group.EditGroupContentPage.groupEditContentPage_3()'><b>groupEditContentPage_3</b><br>Test class: com.r1v2.backend.modules.Group.EditGroupContentPage<br/>
+<a href="#Output-1157528347" onClick='toggleBox("Output-1157528347", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1157528347" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1157528347">
+<br>[Ljava.lang.String;@7ab27fbd is present<br/>
+<br>Clicked on Select Organization<br/>
+<br>[Ljava.lang.String;@548a08d8 is present<br/>
+<br>Clicked on Autocom<br/>
+<br>[Ljava.lang.String;@1d2ef7f3 is present<br/>
+<br>Clicked on Site Builder<br/>
+<br>[Ljava.lang.String;@3447f232 is present<br/>
+<br>Clicked on Page Builder<br/>
+<br>[Ljava.lang.String;@2aa6e0d9 is present<br/>
+<br>Entered value content-page_group<br/>
+<br>[Ljava.lang.String;@781a4ee3 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@5df17106 is present<br/>
+<br>Clicked on Next<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.r1v2.backend.modules.Group.EditGroupContentPage@536aaa8d</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Group.EditGroupContentPage.groupEditContentPage_4()'><b>groupEditContentPage_4</b><br>Test class: com.r1v2.backend.modules.Group.EditGroupContentPage<br/>
+<a href="#Output-495257711" onClick='toggleBox("Output-495257711", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-495257711" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-495257711">
+<br>[Ljava.lang.String;@66ee05db is present<br/>
+<br>Entered value updated-pagegroup<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Group.EditGroupContentPage@536aaa8d</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Group.EditGroupContentPage.groupEditContentPage_5()'><b>groupEditContentPage_5</b><br>Test class: com.r1v2.backend.modules.Group.EditGroupContentPage<br/>
+<a href="#Output-531391230" onClick='toggleBox("Output-531391230", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-531391230" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-531391230">
+<br>[Ljava.lang.String;@a323358 is present<br/>
+<br>Clicked on <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Group.EditGroupContentPage@536aaa8d</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Group.EditGroupContentPage.groupEditContentPage_6()'><b>groupEditContentPage_6</b><br>Test class: com.r1v2.backend.modules.Group.EditGroupContentPage<br/>
+<a href="#Output-2026053078" onClick='toggleBox("Output-2026053078", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2026053078" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2026053078">
+<br>[Ljava.lang.String;@6240066 is present<br/>
+<br>Entered value updated-page-group-es-mx.htm<br/>
+<br>[Ljava.lang.String;@50fd45a is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@3710917d is present<br/>
+<br>updated-page-group-es-mx.htm  URL available is not displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Group.EditGroupContentPage@536aaa8d</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Group.EditGroupContentPage.groupEditContentPage_8()'><b>groupEditContentPage_8</b><br>Test class: com.r1v2.backend.modules.Group.EditGroupContentPage<br/>
+<a href="#Output-1442120509" onClick='toggleBox("Output-1442120509", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1442120509" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1442120509">
+<br>[Ljava.lang.String;@35ac054b is present<br/>
+<br>Clicked on Description<br/>
+<br>[Ljava.lang.String;@5c7db452 is present<br/>
+<br>Clicked on X<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Group.EditGroupContentPage@536aaa8d</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Group.EditGroupContentPage.groupEditContentPage_9()'><b>groupEditContentPage_9</b><br>Test class: com.r1v2.backend.modules.Group.EditGroupContentPage<br/>
+<a href="#Output-41303955" onClick='toggleBox("Output-41303955", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-41303955" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-41303955">
+<br>[Ljava.lang.String;@231540c4 is present<br/>
+<br>Clicked on  Content Page Data for MX Server<br/>
+<br>[Ljava.lang.String;@7d5e072f is present<br/>
+<br>Entered value   Updated Content Page Data for MX Server<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Group.EditGroupContentPage@536aaa8d</td></tr>
+</table><p>
+</body>
+</html>

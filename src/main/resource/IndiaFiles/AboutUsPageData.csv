@@ -1,0 +1,7 @@
+Level,DealerId,Dealers,Title,Url,Department,Responsive_Content,Responsive_Content1,PageTitle,UrlPattern
+OEM,Honda (CAR) (India),Honda,Content-oem,french-oem-level1,Used Car Sales,Responsive French Content,Responsive English Content,SEO List,-en-in.htm URL available
+Group,100563,Aadhi,Content-Group,content-group-level1,Used Car Sales,Responsive Content for Group ,,SEO List,-en-in.htm URL available
+Dealer,100654,aadhimaruti.stg-indemosite.com,Content-Dealer,content-dlr-level1,Used Car Sales,Responsive Content for Dealer,,SEO List,-en-in.htm URL available
+FrontendDlr,102880,,Content-Dealer,,,,,,
+FrontendGrp,102863,,Content-Group,,,,,,
+FrontendOem,175,,Content-oem,,,,,,

@@ -1,0 +1,13 @@
+Level,DealerId,Dealers,Title,Title1,Url,Url1,Department,Responsive_Content,Responsive_Content1,PageTitle,UrlPattern
+OEM,Citroen (CAR) (France),Citroen,Content-France,Content-English,french-oem-level-url,eng-oem-level-url,Used Car Sales,Responsive French Content oem,Responsive English Content,SEO List, -fr-fr.htm URL available
+Group,102863,PGA,Content-Group,,content-dlr-group,,Used Car Sales,Responsive Content for Group ,,SEO List, -fr-fr.htm URL available
+Dealer,102880,citroen-annecy.stg-eudemosite.com,Content-Dealer,,content-dlr-level,,Véhicules d'occasion,Responsive Content for Dealer,,SEO List, -fr-fr.htm URL available
+EditDealer,102880,citroen-annecy.stg-eudemosite.com,Updatde_Title_Dlr,,updated-url-dealer-fr-fr.htm,,Véhicules neufs,Updated Responsive Content Data,,SEO List,  URL available
+EditGroup,102863,PGA,Updated_Title_Grp,,updated-url-group-fr-fr.htm,,New Car Sales,Updated Responsive Content Data,,SEO List,  URL available
+EditOem,Citroen (CAR) (France),Citroen,Updated_french_Title,Updated_Englsih_Title,french-oem-level-url-fr-fr.htm,eng-oem-level-url-en-us.htm,New Car Sales,Updated Responsive French Content oem,,,
+FrontendDlr,102880,https://citroen-annecy.stg-eudemosite.com/,Content-Dealer,,,,,Responsive Content for Dealer,,,
+FrontendGrp,102863,http://renault-marignane.stg-eudemosite.com/,Content-Group,,,,,Responsive Content for Group updated Text,,,
+FrontendOem,175,http://citroen-nice.stg-eudemosite.com/,Content-France,,,,,Responsive Content for Dealer,,,
+FrontendUpdatedDlr,102880,https://citroen-annecy.stg-eudemosite.com/,Updatde_Title_Dlr,,,,,Updated Responsive Content Data,,,
+FrontendUpdatedOem,175,http://citroen-nice.stg-eudemosite.com/,Updated_french_Title,,,,,Updated Responsive French Content oem,,,
+FrontendUpdatedGrp,102863,http://mercedes-benz-larochelle.stg-eudemosite.com/,Updated_Title_Grp,,,,,Responsive Content for Group updated Text,,,

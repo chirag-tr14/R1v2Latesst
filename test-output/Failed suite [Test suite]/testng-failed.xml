@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Failed suite [Test suite]]">
+  <test thread-count="3" verbose="10" name="SC Dealer Content Pages(failed)(failed)" parallel="classes">
+    <classes>
+      <class name="com.r1v2.backend.modules.Dealer.NewDealerContentPage">
+        <methods>
+          <include name="dlrContentpagePG_7"/>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="beforeClass"/>
+          <include name="dlrContentpagePG_1"/>
+        </methods>
+      </class> <!-- com.r1v2.backend.modules.Dealer.NewDealerContentPage -->
+    </classes>
+  </test> <!-- SC Dealer Content Pages(failed)(failed) -->
+  <test thread-count="3" verbose="10" name="Front end Pages(failed)(failed)" parallel="classes">
+    <classes>
+      <class name="com.r1v2.frontend.Modules.Group.GroupContentPageFrontEnd">
+        <methods>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="testCOPG_2"/>
+          <include name="testCOPG_1"/>
+          <include name="beforeClass"/>
+          <include name="setUpOnce1"/>
+        </methods>
+      </class> <!-- com.r1v2.frontend.Modules.Group.GroupContentPageFrontEnd -->
+    </classes>
+  </test> <!-- Front end Pages(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Test suite]] -->

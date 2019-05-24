@@ -1,0 +1,13 @@
+Level,DealerId,Dealers,Title,Url,Department,Responsive_Content,PageTitle,UrlPattern,LocalId,FormValue
+OEM,Honda (CAR) (India),Honda,Campaign-oemHonda,campaign-oem-level,Used Car Sales,Responsive  Campaign,SEO List, -en-in.htm URL available,16393,Campaign Standard Form
+Group,100563,Aadhi,Campaign-GroupAadhi,campaign-group-level,Used Car Sales,Responsive Campaign for Group ,SEO List, -en-in.htm URL available,16393,Campaign Standard Form
+Dealer,100654,aadhimaruti.stg-indemosite.com,Campaign-Dealermaruthi,campaign-dlr-level,Sales-Vadavalli,Responsive Campaign for Dealer,SEO List, -en-in.htm URL available,16393,Campaign Standard Form
+EditDealer,100654,aadhimaruti.stg-indemosite.com,updated Campaign-Dealer,updated-dlr-level-en-in.htm,Sales-Tirunelveli Sales,Updated Campaign for Dealer,SEO List,  URL available,16393,Campaign Standard Form
+EditGroup,100563,Aadhi,updatedCampaign-GroupAadhi,updated-grp-level-en-in.htm,New Car Sales,Updated Responsive  Campaign,SEO List,  URL available,16393,Campaign Standard Form
+EditOem,Honda (CAR) (India),Honda,updatedCampaign-oem,updated-oem-level-en-in.htm,New Car Sales,Updated Responsive  Campaign,SEO List,  URL available,16393,Campaign Standard Form
+FrontendDlr,100654,http://aadhimaruti.stg-indemosite.com/,Campaign-Dealermaruthi,,,Responsive Campaign for Dealer,,,,
+FrontendGrp,100563,http://aadhihonda.stg-indemosite.com/,Campaign-GroupAadhi,,,Responsive Campaign for Group ,,,,
+FrontendOem,488,http://greenhonda.stg-indemosite.com/,Campaign-oemHonda,,,Responsive  Campaign,,,,
+FrontendUpdatedDlr,100654,http://aadhimaruti.stg-indemosite.com/,updated Campaign-Dealer,,,Updated Campaign for Dealer,,,,
+FrontendUpdatedOem,488,http://greenhonda.stg-indemosite.com/,updatedCampaign-oem,,,Updated Responsive  Campaign,,,,
+FrontendUpdatedGrp,100563,http://aadhihonda.stg-indemosite.com/,updatedCampaign-GroupAadhi,,,Updated Responsive  Campaign,,,,

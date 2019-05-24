@@ -1,0 +1,819 @@
+<html>
+<head>
+<title>TestNG:  SC Edit   Campaign  Pages</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SC Edit   Campaign  Pages</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>33/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Feb 06 15:03:17 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>38 seconds (38793 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.r1v2.backend.modules.Group.EditGroupCampaignPage.grpEditContentPage_3()'><b>grpEditContentPage_3</b><br>Test class: com.r1v2.backend.modules.Group.EditGroupCampaignPage<br/>
+<a href="#Output-2083630604" onClick='toggleBox("Output-2083630604", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2083630604" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2083630604">
+<br>[Ljava.lang.String;@4a57c414 is present<br/>
+<br>Clicked on Select Organization<br/>
+<br>[Ljava.lang.String;@5d3a4f4f is present<br/>
+<br>Clicked on Aadhi Group<br/>
+<br>[Ljava.lang.String;@581b4819 is present<br/>
+<br>Clicked on Site Builder<br/>
+<br>[Ljava.lang.String;@2f566c93 is present<br/>
+<br>Clicked on Page Builder<br/>
+<br>[Ljava.lang.String;@734778c2 is present<br/>
+<br>Entered value campaign-group-level<br/>
+<br>[Ljava.lang.String;@5beeaa43 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@65d4d29d is present<br/>
+<br>Clicked on Next<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoAlertPresentException: no alert open
+  (Session info: chrome=72.0.3626.81)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;IZDT-211&apos;, ip: &apos;10.125.101.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\rajesh.n\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.81, webStorageEnabled: true}
+Session ID: 70145e5c2eacad1727984396cdbf0e27
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:928)
+	at com.r1v2.common.PageBase.alertAccept(PageBase.java:210)
+	at com.qa.sc.pageobjects.SCPages.clickFirstTabNextBtn1(SCPages.java:84)
+	at com.r1v2.backend.modules.Group.EditGroupCampaignPage.grpEditContentPage_3(EditGroupCampaignPage.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2083630604", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2083630604'><pre>org.openqa.selenium.NoAlertPresentException: no alert open
+  (Session info: chrome=72.0.3626.81)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.10586 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;IZDT-211&apos;, ip: &apos;10.125.101.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\rajesh.n\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 72.0.3626.81, webStorageEnabled: true}
+Session ID: 70145e5c2eacad1727984396cdbf0e27
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:928)
+	at com.r1v2.common.PageBase.alertAccept(PageBase.java:210)
+	at com.qa.sc.pageobjects.SCPages.clickFirstTabNextBtn1(SCPages.java:84)
+	at com.r1v2.backend.modules.Group.EditGroupCampaignPage.grpEditContentPage_3(EditGroupCampaignPage.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</pre></div></td>
+<td>5</td>
+<td>com.r1v2.backend.modules.Group.EditGroupCampaignPage@7a9273a8</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.r1v2.backend.modules.Dealer.EditDealerCampaignPage.dlrCampaignPage_2()'><b>dlrCampaignPage_2</b><br>Test class: com.r1v2.backend.modules.Dealer.EditDealerCampaignPage<br/>
+<a href="#Output-1889954180" onClick='toggleBox("Output-1889954180", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1889954180" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1889954180">
+<br>[Ljava.lang.String;@29a3bfdf is present<br/>
+<br>Element Displayed Logout<br/>
+<br>logout link is displayed on Home page<br/>
+<br>[Ljava.lang.String;@61803081 is present<br/>
+<br>Element Displayed Change password<br/>
+<br>change password is displayed on Home page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Dealer.EditDealerCampaignPage@26a7b76d</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Group.EditGroupCampaignPage.dlrContentpagePG_2()'><b>dlrContentpagePG_2</b><br>Test class: com.r1v2.backend.modules.Group.EditGroupCampaignPage<br/>
+<a href="#Output-1888121857" onClick='toggleBox("Output-1888121857", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1888121857" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1888121857">
+<br>[Ljava.lang.String;@6557a835 is present<br/>
+<br>Element Displayed Logout<br/>
+<br>logout link is displayed on Home page<br/>
+<br>[Ljava.lang.String;@17f63e4b is present<br/>
+<br>Element Displayed Change password<br/>
+<br>change password is displayed on Home page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Group.EditGroupCampaignPage@7a9273a8</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Dealer.EditDealerCampaignPage.dlrEditCampaignPage_10()'><b>dlrEditCampaignPage_10</b><br>Test class: com.r1v2.backend.modules.Dealer.EditDealerCampaignPage<br/>
+<a href="#Output-1675757463" onClick='toggleBox("Output-1675757463", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1675757463" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1675757463">
+<br>[Ljava.lang.String;@624a83d4 is present<br/>
+<br>Clicked on Description<br/>
+<br>[Ljava.lang.String;@52ae8af8 is present<br/>
+<br>Clicked on X<br/>
+<br>[Ljava.lang.String;@616fb226 is present<br/>
+<br>Clicked on Responsive Campaign for Dealer<br/>
+<br>[Ljava.lang.String;@76c566f2 is present<br/>
+<br>Entered value Updated Campaign for Dealer<br/>
+<br>[Ljava.lang.String;@64dc26f8 is present<br/>
+<br>Clicked on Next<br/>
+<br>[Ljava.lang.String;@8ec2258 is present<br/>
+<br>Clicked on Next<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.r1v2.backend.modules.Dealer.EditDealerCampaignPage@26a7b76d</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Dealer.EditDealerCampaignPage.dlrEditCampaignPage_11()'><b>dlrEditCampaignPage_11</b><br>Test class: com.r1v2.backend.modules.Dealer.EditDealerCampaignPage<br/>
+<a href="#Output-1425820181" onClick='toggleBox("Output-1425820181", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1425820181" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1425820181">
+<br>[Ljava.lang.String;@745b2fbb is present<br/>
+<br>Clicked on <br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.r1v2.backend.modules.Dealer.EditDealerCampaignPage@26a7b76d</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Dealer.EditDealerCampaignPage.dlrEditCampaignPage_12()'><b>dlrEditCampaignPage_12</b><br>Test class: com.r1v2.backend.modules.Dealer.EditDealerCampaignPage<br/>
+<a href="#Output-1515404981" onClick='toggleBox("Output-1515404981", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1515404981" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1515404981">
+<br>[Ljava.lang.String;@2af5e043 is present<br/>
+<br>Clicked on Logout<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.r1v2.backend.modules.Dealer.EditDealerCampaignPage@26a7b76d</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Dealer.EditDealerCampaignPage.dlrEditCampaignPage_3()'><b>dlrEditCampaignPage_3</b><br>Test class: com.r1v2.backend.modules.Dealer.EditDealerCampaignPage<br/>
+<a href="#Output-289784887" onClick='toggleBox("Output-289784887", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-289784887" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-289784887">
+<br>[Ljava.lang.String;@266032d8 is present<br/>
+<br>Clicked on Select Organization<br/>
+<br>[Ljava.lang.String;@28006187 is present<br/>
+<br>Clicked on Site List<br/>
+<br>[Ljava.lang.String;@29593977 is present<br/>
+<br>Entered value aadhimaruti.stg-indemosite.com<br/>
+<br>[Ljava.lang.String;@1611d517 is present<br/>
+<br>Clicked on Aadhi Cars (P) Ltd.<br/>
+<br>[Ljava.lang.String;@71c982d8 is present<br/>
+<br>Clicked on Site Builder<br/>
+<br>[Ljava.lang.String;@d8a6a1d is present<br/>
+<br>Clicked on Page Builder<br/>
+<br>[Ljava.lang.String;@8a2aa91 is present<br/>
+<br>Entered value campaign-dlr-level<br/>
+<br>[Ljava.lang.String;@788c24a1 is present<br/>
+<br>Clicked on <br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>com.r1v2.backend.modules.Dealer.EditDealerCampaignPage@26a7b76d</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Dealer.EditDealerCampaignPage.dlrEditCampaignPage_4()'><b>dlrEditCampaignPage_4</b><br>Test class: com.r1v2.backend.modules.Dealer.EditDealerCampaignPage<br/>
+<a href="#Output-365144688" onClick='toggleBox("Output-365144688", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-365144688" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-365144688">
+<br>[Ljava.lang.String;@5a15c0f1 is present<br/>
+<br>Entered value updated Campaign-Dealer<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Dealer.EditDealerCampaignPage@26a7b76d</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Dealer.EditDealerCampaignPage.dlrEditCampaignPage_5()'><b>dlrEditCampaignPage_5</b><br>Test class: com.r1v2.backend.modules.Dealer.EditDealerCampaignPage<br/>
+<a href="#Output-902817560" onClick='toggleBox("Output-902817560", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-902817560" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-902817560">
+<br>[Ljava.lang.String;@2f7d3fb1 is present<br/>
+<br>Clicked on <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Dealer.EditDealerCampaignPage@26a7b76d</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Dealer.EditDealerCampaignPage.dlrEditCampaignPage_6()'><b>dlrEditCampaignPage_6</b><br>Test class: com.r1v2.backend.modules.Dealer.EditDealerCampaignPage<br/>
+<a href="#Output-667928309" onClick='toggleBox("Output-667928309", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-667928309" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-667928309">
+<br>[Ljava.lang.String;@73ae6810 is present<br/>
+<br>Entered value updated-dlr-level-en-in.htm<br/>
+<br>[Ljava.lang.String;@4054f1f is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@16041489 is present<br/>
+<br>updated-dlr-level-en-in.htm  URL available is not displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Dealer.EditDealerCampaignPage@26a7b76d</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Dealer.EditDealerCampaignPage.dlrEditCampaignPage_7()'><b>dlrEditCampaignPage_7</b><br>Test class: com.r1v2.backend.modules.Dealer.EditDealerCampaignPage<br/>
+<a href="#Output-1235332716" onClick='toggleBox("Output-1235332716", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1235332716" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1235332716">
+<br>[Ljava.lang.String;@227b3689 is present<br/>
+<br>[Ljava.lang.String;@3448c5e8 is present<br/>
+<br>Clicked on Next<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.r1v2.backend.modules.Dealer.EditDealerCampaignPage@26a7b76d</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Dealer.EditDealerCampaignPage.dlrEditCampaignPage_8()'><b>dlrEditCampaignPage_8</b><br>Test class: com.r1v2.backend.modules.Dealer.EditDealerCampaignPage<br/>
+<a href="#Output-1834759161" onClick='toggleBox("Output-1834759161", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1834759161" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1834759161">
+<br>[Ljava.lang.String;@24fb253b is present<br/>
+<br>Clicked on Browse<br/>
+<br>[Ljava.lang.String;@5004b67d is present<br/>
+<br>Clicked on Next<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.r1v2.backend.modules.Dealer.EditDealerCampaignPage@26a7b76d</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Dealer.EditDealerCampaignPage.dlrEditCampaignPage_9()'><b>dlrEditCampaignPage_9</b><br>Test class: com.r1v2.backend.modules.Dealer.EditDealerCampaignPage<br/>
+<a href="#Output-612882365" onClick='toggleBox("Output-612882365", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-612882365" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-612882365">
+<br>[Ljava.lang.String;@c5a2d17 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@7a2fe39a is present<br/>
+<br>updated Campaign-DealerCampaign Standard Form is not displayed<br/>
+<br>[Ljava.lang.String;@6ab15e3a is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@585e93b is present<br/>
+<br>Element Displayed <br/>
+<br>Below Campaign Image radio button  displayed <br/>
+<br>[Ljava.lang.String;@222c1106 is present<br/>
+<br>Element Displayed <br/>
+<br>Below content radio button displayed<br/>
+<br>[Ljava.lang.String;@5f1c8d65 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@7dc706e7 is present<br/>
+<br>Entered value Campaign Standard Form<br/>
+<br>[Ljava.lang.String;@16c63848 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@f6a7d85 is present<br/>
+<br>Entered value updated Campaign-Dealer<br/>
+<br>[Ljava.lang.String;@76213377 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@625d8414 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@5fde86f9 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@15c94423 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@1a91347 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@29f209c4 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@5d3396ea is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@b581b4e is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@7e1ab190 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@335ee1a6 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@2fda2b87 is present<br/>
+<br>Clicked on Next<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.r1v2.backend.modules.Dealer.EditDealerCampaignPage@26a7b76d</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.EditOemCampaignPage.editOemCamppagePG_10()'><b>editOemCamppagePG_10</b><br>Test class: com.r1v2.backend.modules.Oem.EditOemCampaignPage<br/>
+<a href="#Output-988563684" onClick='toggleBox("Output-988563684", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-988563684" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-988563684">
+<br>[Ljava.lang.String;@68727a50 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@623d340f is present<br/>
+<br>updatedCampaign-oemCampaign Standard Form is not displayed<br/>
+<br>[Ljava.lang.String;@19eeabbd is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@69f8124c is present<br/>
+<br>Element Displayed <br/>
+<br>Below Campaign Image radio button  displayed <br/>
+<br>[Ljava.lang.String;@230eaea2 is present<br/>
+<br>Element Displayed <br/>
+<br>Below content radio button displayed<br/>
+<br>[Ljava.lang.String;@108c0b2b is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@17d7d87d is present<br/>
+<br>Entered value Campaign Standard Form<br/>
+<br>[Ljava.lang.String;@27659b98 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@228eb338 is present<br/>
+<br>Entered value updatedCampaign-oem<br/>
+<br>[Ljava.lang.String;@176fb7e8 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@4b32fb3b is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@41c58800 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@75a46eef is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@30b3344e is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@e13ff32 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@2ba94f7 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@408d5973 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@70a7a6c1 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@421d1228 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@2026b405 is present<br/>
+<br>Clicked on Next<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.r1v2.backend.modules.Oem.EditOemCampaignPage@23d2a7e8</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.EditOemCampaignPage.editOemCamppagePG_11()'><b>editOemCamppagePG_11</b><br>Test class: com.r1v2.backend.modules.Oem.EditOemCampaignPage<br/>
+<a href="#Output-849648244" onClick='toggleBox("Output-849648244", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-849648244" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-849648244">
+<br>[Ljava.lang.String;@d2d6059 is present<br/>
+<br>Clicked on Description<br/>
+<br>[Ljava.lang.String;@7116e4ea is present<br/>
+<br>Clicked on X<br/>
+<br>[Ljava.lang.String;@22fe27c1 is present<br/>
+<br>Clicked on Responsive  Campaign<br/>
+<br>[Ljava.lang.String;@6937d6a4 is present<br/>
+<br>Entered value Updated Responsive  Campaign<br/>
+<br>[Ljava.lang.String;@6f46ed15 is present<br/>
+<br>Clicked on Next<br/>
+<br>[Ljava.lang.String;@3d3e464b is present<br/>
+<br>Clicked on Next<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.r1v2.backend.modules.Oem.EditOemCampaignPage@23d2a7e8</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.EditOemCampaignPage.editOemCamppagePG_12()'><b>editOemCamppagePG_12</b><br>Test class: com.r1v2.backend.modules.Oem.EditOemCampaignPage<br/>
+<a href="#Output-1162666654" onClick='toggleBox("Output-1162666654", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1162666654" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1162666654">
+<br>[Ljava.lang.String;@6bf02df0 is present<br/>
+<br>Clicked on <br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.r1v2.backend.modules.Oem.EditOemCampaignPage@23d2a7e8</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.EditOemCampaignPage.editOemCamppagePG_13()'><b>editOemCamppagePG_13</b><br>Test class: com.r1v2.backend.modules.Oem.EditOemCampaignPage<br/>
+<a href="#Output-1562657028" onClick='toggleBox("Output-1562657028", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1562657028" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1562657028">
+<br>[Ljava.lang.String;@6a911492 is present<br/>
+<br>Clicked on Logout<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Oem.EditOemCampaignPage@23d2a7e8</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.EditOemCampaignPage.editOemCamppagePG_2()'><b>editOemCamppagePG_2</b><br>Test class: com.r1v2.backend.modules.Oem.EditOemCampaignPage<br/>
+<a href="#Output-1874056867" onClick='toggleBox("Output-1874056867", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1874056867" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1874056867">
+<br>[Ljava.lang.String;@65fa6274 is present<br/>
+<br>Element Displayed Logout<br/>
+<br>logout link is displayed on Home page<br/>
+<br>[Ljava.lang.String;@1ebe325d is present<br/>
+<br>Element Displayed Change password<br/>
+<br>change password is displayed on Home page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Oem.EditOemCampaignPage@23d2a7e8</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.EditOemCampaignPage.editOemCamppagePG_3()'><b>editOemCamppagePG_3</b><br>Test class: com.r1v2.backend.modules.Oem.EditOemCampaignPage<br/>
+<a href="#Output-1195826118" onClick='toggleBox("Output-1195826118", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1195826118" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1195826118">
+<br>[Ljava.lang.String;@2fd8ea6a is present<br/>
+<br>Clicked on Select Organization<br/>
+<br>[Ljava.lang.String;@3526d116 is present<br/>
+<br>Clicked on Honda (CAR) (India)<br/>
+<br>[Ljava.lang.String;@613483f8 is present<br/>
+<br>Clicked on Site Builder<br/>
+<br>[Ljava.lang.String;@5abd8b27 is present<br/>
+<br>Clicked on Page Builder<br/>
+<br>[Ljava.lang.String;@400e16cd is present<br/>
+<br>Entered value campaign-oem-level<br/>
+<br>[Ljava.lang.String;@41bd85b is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@7862642 is present<br/>
+<br>Clicked on <br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.r1v2.backend.modules.Oem.EditOemCampaignPage@23d2a7e8</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.EditOemCampaignPage.editOemCamppagePG_4()'><b>editOemCamppagePG_4</b><br>Test class: com.r1v2.backend.modules.Oem.EditOemCampaignPage<br/>
+<a href="#Output-669415769" onClick='toggleBox("Output-669415769", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-669415769" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-669415769">
+<br>[Ljava.lang.String;@9e328c2 is present<br/>
+<br>Entered value updatedCampaign-oem<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Oem.EditOemCampaignPage@23d2a7e8</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.EditOemCampaignPage.editOemCamppagePG_5()'><b>editOemCamppagePG_5</b><br>Test class: com.r1v2.backend.modules.Oem.EditOemCampaignPage</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Oem.EditOemCampaignPage@23d2a7e8</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.EditOemCampaignPage.editOemCamppagePG_6()'><b>editOemCamppagePG_6</b><br>Test class: com.r1v2.backend.modules.Oem.EditOemCampaignPage<br/>
+<a href="#Output-65667859" onClick='toggleBox("Output-65667859", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-65667859" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-65667859">
+<br>[Ljava.lang.String;@83c79c8 is present<br/>
+<br>Clicked on <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Oem.EditOemCampaignPage@23d2a7e8</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.EditOemCampaignPage.editOemCamppagePG_7()'><b>editOemCamppagePG_7</b><br>Test class: com.r1v2.backend.modules.Oem.EditOemCampaignPage<br/>
+<a href="#Output-1836172056" onClick='toggleBox("Output-1836172056", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1836172056" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1836172056">
+<br>[Ljava.lang.String;@3eddefff is present<br/>
+<br>Entered value updated-oem-level-en-in.htm<br/>
+<br>[Ljava.lang.String;@63317e86 is present<br/>
+<br>Clicked on <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Oem.EditOemCampaignPage@23d2a7e8</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.EditOemCampaignPage.editOemCamppagePG_8()'><b>editOemCamppagePG_8</b><br>Test class: com.r1v2.backend.modules.Oem.EditOemCampaignPage<br/>
+<a href="#Output-991984357" onClick='toggleBox("Output-991984357", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-991984357" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-991984357">
+<br>[Ljava.lang.String;@6ca4fa82 is present<br/>
+<br>[Ljava.lang.String;@16b6011d is present<br/>
+<br>Clicked on Next<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.r1v2.backend.modules.Oem.EditOemCampaignPage@23d2a7e8</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Oem.EditOemCampaignPage.editOemCamppagePG_9()'><b>editOemCamppagePG_9</b><br>Test class: com.r1v2.backend.modules.Oem.EditOemCampaignPage<br/>
+<a href="#Output-359786308" onClick='toggleBox("Output-359786308", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-359786308" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-359786308">
+<br>[Ljava.lang.String;@468a803f is present<br/>
+<br>Clicked on Browse<br/>
+<br>[Ljava.lang.String;@4e1bdd90 is present<br/>
+<br>Clicked on Next<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.r1v2.backend.modules.Oem.EditOemCampaignPage@23d2a7e8</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Group.EditGroupCampaignPage.grpEditContentPage_10()'><b>grpEditContentPage_10</b><br>Test class: com.r1v2.backend.modules.Group.EditGroupCampaignPage<br/>
+<a href="#Output-327761642" onClick='toggleBox("Output-327761642", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-327761642" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-327761642">
+<br>[Ljava.lang.String;@16e6860f is present<br/>
+<br>Clicked on Description<br/>
+<br>[Ljava.lang.String;@2029019a is present<br/>
+<br>Clicked on X<br/>
+<br>[Ljava.lang.String;@4d18513d is present<br/>
+<br>Clicked on Responsive Campaign for Group <br/>
+<br>[Ljava.lang.String;@559c0b9 is present<br/>
+<br>Entered value Updated Responsive  Campaign<br/>
+<br>[Ljava.lang.String;@fc86e64 is present<br/>
+<br>Clicked on Next<br/>
+<br>[Ljava.lang.String;@5f336f95 is present<br/>
+<br>Clicked on Next<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.r1v2.backend.modules.Group.EditGroupCampaignPage@7a9273a8</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Group.EditGroupCampaignPage.grpEditContentPage_11()'><b>grpEditContentPage_11</b><br>Test class: com.r1v2.backend.modules.Group.EditGroupCampaignPage<br/>
+<a href="#Output-1442764369" onClick='toggleBox("Output-1442764369", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1442764369" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1442764369">
+<br>[Ljava.lang.String;@73679122 is present<br/>
+<br>Clicked on <br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>com.r1v2.backend.modules.Group.EditGroupCampaignPage@7a9273a8</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Group.EditGroupCampaignPage.grpEditContentPage_12()'><b>grpEditContentPage_12</b><br>Test class: com.r1v2.backend.modules.Group.EditGroupCampaignPage<br/>
+<a href="#Output-844608377" onClick='toggleBox("Output-844608377", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-844608377" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-844608377">
+<br>[Ljava.lang.String;@77587673 is present<br/>
+<br>Clicked on Logout<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Group.EditGroupCampaignPage@7a9273a8</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Group.EditGroupCampaignPage.grpEditContentPage_4()'><b>grpEditContentPage_4</b><br>Test class: com.r1v2.backend.modules.Group.EditGroupCampaignPage<br/>
+<a href="#Output-1765049992" onClick='toggleBox("Output-1765049992", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1765049992" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1765049992">
+<br>[Ljava.lang.String;@41664702 is present<br/>
+<br>Entered value updatedCampaign-GroupAadhi<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Group.EditGroupCampaignPage@7a9273a8</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Group.EditGroupCampaignPage.grpEditContentPage_5()'><b>grpEditContentPage_5</b><br>Test class: com.r1v2.backend.modules.Group.EditGroupCampaignPage<br/>
+<a href="#Output-156548914" onClick='toggleBox("Output-156548914", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-156548914" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-156548914">
+<br>[Ljava.lang.String;@ccc9c88 is present<br/>
+<br>Clicked on <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Group.EditGroupCampaignPage@7a9273a8</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Group.EditGroupCampaignPage.grpEditContentPage_6()'><b>grpEditContentPage_6</b><br>Test class: com.r1v2.backend.modules.Group.EditGroupCampaignPage<br/>
+<a href="#Output-1202613287" onClick='toggleBox("Output-1202613287", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1202613287" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1202613287">
+<br>[Ljava.lang.String;@3781ca8c is present<br/>
+<br>Entered value updated-grp-level-en-in.htm<br/>
+<br>[Ljava.lang.String;@35c62b86 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@275b11c2 is present<br/>
+<br>updated-grp-level-en-in.htm  URL available is not displayed<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.modules.Group.EditGroupCampaignPage@7a9273a8</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Group.EditGroupCampaignPage.grpEditContentPage_7()'><b>grpEditContentPage_7</b><br>Test class: com.r1v2.backend.modules.Group.EditGroupCampaignPage<br/>
+<a href="#Output-1090981126" onClick='toggleBox("Output-1090981126", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1090981126" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1090981126">
+<br>[Ljava.lang.String;@52c3cfda is present<br/>
+<br>[Ljava.lang.String;@4c209405 is present<br/>
+<br>Clicked on Next<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.r1v2.backend.modules.Group.EditGroupCampaignPage@7a9273a8</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Group.EditGroupCampaignPage.grpEditContentPage_8()'><b>grpEditContentPage_8</b><br>Test class: com.r1v2.backend.modules.Group.EditGroupCampaignPage<br/>
+<a href="#Output-801946103" onClick='toggleBox("Output-801946103", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-801946103" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-801946103">
+<br>[Ljava.lang.String;@1eec375a is present<br/>
+<br>Clicked on Browse<br/>
+<br>[Ljava.lang.String;@5125feb9 is present<br/>
+<br>Clicked on Next<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.r1v2.backend.modules.Group.EditGroupCampaignPage@7a9273a8</td></tr>
+<tr>
+<td title='com.r1v2.backend.modules.Group.EditGroupCampaignPage.grpEditContentPage_9()'><b>grpEditContentPage_9</b><br>Test class: com.r1v2.backend.modules.Group.EditGroupCampaignPage<br/>
+<a href="#Output-749749049" onClick='toggleBox("Output-749749049", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-749749049" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-749749049">
+<br>[Ljava.lang.String;@13eba334 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@608eda38 is present<br/>
+<br>updatedCampaign-GroupAadhiCampaign Standard Form is not displayed<br/>
+<br>[Ljava.lang.String;@45033052 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@7e24834 is present<br/>
+<br>Element Displayed <br/>
+<br>Below Campaign Image radio button  displayed <br/>
+<br>[Ljava.lang.String;@1abc45c8 is present<br/>
+<br>Element Displayed <br/>
+<br>Below content radio button displayed<br/>
+<br>[Ljava.lang.String;@1aa012c is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@25ca3a76 is present<br/>
+<br>Entered value Campaign Standard Form<br/>
+<br>[Ljava.lang.String;@47cc0819 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@12d24d13 is present<br/>
+<br>Entered value updatedCampaign-GroupAadhi<br/>
+<br>[Ljava.lang.String;@3078a7a is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@4d7bd400 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@613723ba is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@5f941c83 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@5e97349d is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@60572db0 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@2a43cbb8 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@264c911 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@1b37ee8b is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@24212349 is present<br/>
+<br>Clicked on <br/>
+<br>[Ljava.lang.String;@5834f94e is present<br/>
+<br>Clicked on Next<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.r1v2.backend.modules.Group.EditGroupCampaignPage@7a9273a8</td></tr>
+</table><p>
+</body>
+</html>

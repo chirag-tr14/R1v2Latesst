@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Test suite]">
+  <test thread-count="10" verbose="10" name="SC Add Campaign  Pages(failed)" parallel="classes">
+    <classes>
+      <class name="com.r1v2.backend.modules.Group.AddGroupCampaignPage">
+        <methods>
+          <include name="getResult"/>
+          <include name="dlrCampaignPage_11"/>
+          <include name="addgroupCampaignPG_11"/>
+          <include name="setUp"/>
+          <include name="addgroupCampaignPG_1"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.r1v2.backend.modules.Group.AddGroupCampaignPage -->
+      <class name="com.r1v2.backend.modules.Dealer.AddDealerCampaignPage">
+        <methods>
+          <include name="addDlrCampaignPage_1"/>
+          <include name="addDlrCampaignPage_14"/>
+          <include name="addDlrCampaignPage_13"/>
+          <include name="addDlrCampaignPage_12"/>
+          <include name="getResult"/>
+          <include name="setUp"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.r1v2.backend.modules.Dealer.AddDealerCampaignPage -->
+      <class name="com.r1v2.backend.modules.Oem.AddOemCampaignPage">
+        <methods>
+          <include name="getResult"/>
+          <include name="addoemCampaignPG_1"/>
+          <include name="setUp"/>
+          <include name="addoemCampaignPG_11"/>
+          <include name="beforeClass"/>
+          <include name="addoemCampaignPG_12"/>
+        </methods>
+      </class> <!-- com.r1v2.backend.modules.Oem.AddOemCampaignPage -->
+    </classes>
+  </test> <!-- SC Add Campaign  Pages(failed) -->
+</suite> <!-- Failed suite [Test suite] -->

@@ -1,0 +1,415 @@
+<html>
+<head>
+<title>TestNG:  Scenario 3 Test Cases</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Scenario 3 Test Cases</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>4/3/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Aug 16 17:33:14 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>1297 seconds (1297411 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.r1v2.backend.pagebuilder.module.ScenarioSpecialPage.testPG_4()'><b>testPG_4</b><br>Test class: com.r1v2.backend.pagebuilder.module.ScenarioSpecialPage<br/>
+<a href="#Output-616586327" onClick='toggleBox("Output-616586327", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-616586327" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-616586327">
+<br>[Ljava.lang.String;@78d9ea22 is present<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError:  Selecting Depsrtment and Responsive Contnet data passing Responsive Editor  expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:568)
+	at com.r1v2.backend.pagebuilder.module.ScenarioSpecialPage.testPG_4(ScenarioSpecialPage.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div><a href='#' onClick='toggleBox("stack-trace616586327", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace616586327'><pre>java.lang.AssertionError:  Selecting Depsrtment and Responsive Contnet data passing Responsive Editor  expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:568)
+	at com.r1v2.backend.pagebuilder.module.ScenarioSpecialPage.testPG_4(ScenarioSpecialPage.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.r1v2.backend.pagebuilder.module.ScenarioSpecialPage@2d8f65a4</td></tr>
+<tr>
+<td title='com.r1v2.backend.pagebuilder.module.ScenarioSpecialPage.testPG_6()'><b>testPG_6</b><br>Test class: com.r1v2.backend.pagebuilder.module.ScenarioSpecialPage<br/>
+<a href="#Output-1051760163" onClick='toggleBox("Output-1051760163", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1051760163" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1051760163">
+<br>[Ljava.lang.String;@1240fab0 is present<br/>
+<br>Clicked on <br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;IZDT-211&apos;, ip: &apos;10.125.101.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 21636, moz:profile: C:\Users\rajesh.n\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ad29b93d-dc29-474a-b0db-3394a66c73df
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:280)
+	at com.qa.sc.pageobjects.SCPages.veirfyPageTitle(SCPages.java:236)
+	at com.r1v2.backend.pagebuilder.module.ScenarioSpecialPage.testPG_6(ScenarioSpecialPage.java:95)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1051760163", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1051760163'><pre>org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;IZDT-211&apos;, ip: &apos;10.125.101.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 21636, moz:profile: C:\Users\rajesh.n\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ad29b93d-dc29-474a-b0db-3394a66c73df
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:280)
+	at com.qa.sc.pageobjects.SCPages.veirfyPageTitle(SCPages.java:236)
+	at com.r1v2.backend.pagebuilder.module.ScenarioSpecialPage.testPG_6(ScenarioSpecialPage.java:95)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>10</td>
+<td>com.r1v2.backend.pagebuilder.module.ScenarioSpecialPage@2d8f65a4</td></tr>
+<tr>
+<td title='com.r1v2.backend.pagebuilder.module.ScenarioSpecialPage.testPG_7()'><b>testPG_7</b><br>Test class: com.r1v2.backend.pagebuilder.module.ScenarioSpecialPage</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;IZDT-211&apos;, ip: &apos;10.125.101.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 21636, moz:profile: C:\Users\rajesh.n\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ad29b93d-dc29-474a-b0db-3394a66c73df
+*** Element info: {Using=xpath, value=//a[text()=&apos;Logout&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:349)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:310)
+	at com.core.actionhandlers.WaitForActionsHandler$WaitForWebElements$3.apply(WaitForActionsHandler.java:80)
+	at com.core.actionhandlers.WaitForActionsHandler$WaitForWebElements$3.apply(WaitForActionsHandler.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.core.actionhandlers.WaitForActionsHandler$WaitForWebElements.exists(WaitForActionsHandler.java:78)
+	at com.r1v2.common.PageBase.genericGetWebElement(PageBase.java:144)
+	at com.r1v2.common.PageBase.returnWebElement(PageBase.java:75)
+	at com.r1v2.common.PageBase.clickElement(PageBase.java:247)
+	at com.qa.sc.pageobjects.SCLoginPage.logoutAdmin(SCLoginPage.java:87)
+	at com.r1v2.backend.pagebuilder.module.ScenarioSpecialPage.testPG_7(ScenarioSpecialPage.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1340316468", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1340316468'><pre>org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;
+System info: host: &apos;IZDT-211&apos;, ip: &apos;10.125.101.16&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_73&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 21636, moz:profile: C:\Users\rajesh.n\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: ad29b93d-dc29-474a-b0db-3394a66c73df
+*** Element info: {Using=xpath, value=//a[text()=&apos;Logout&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:349)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:310)
+	at com.core.actionhandlers.WaitForActionsHandler$WaitForWebElements$3.apply(WaitForActionsHandler.java:80)
+	at com.core.actionhandlers.WaitForActionsHandler$WaitForWebElements$3.apply(WaitForActionsHandler.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.core.actionhandlers.WaitForActionsHandler$WaitForWebElements.exists(WaitForActionsHandler.java:78)
+	at com.r1v2.common.PageBase.genericGetWebElement(PageBase.java:144)
+	at com.r1v2.common.PageBase.returnWebElement(PageBase.java:75)
+	at com.r1v2.common.PageBase.clickElement(PageBase.java:247)
+	at com.qa.sc.pageobjects.SCLoginPage.logoutAdmin(SCLoginPage.java:87)
+	at com.r1v2.backend.pagebuilder.module.ScenarioSpecialPage.testPG_7(ScenarioSpecialPage.java:101)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+</pre></div></td>
+<td>0</td>
+<td>com.r1v2.backend.pagebuilder.module.ScenarioSpecialPage@2d8f65a4</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.r1v2.backend.pagebuilder.module.ScenarioSpecialPage.testPG_1()'><b>testPG_1</b><br>Test class: com.r1v2.backend.pagebuilder.module.ScenarioSpecialPage<br/>
+<a href="#Output-735512345" onClick='toggleBox("Output-735512345", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-735512345" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-735512345">
+<br>[Ljava.lang.String;@61f1652d is present<br/>
+<br>Clicked on Select Organization<br/>
+<br>[Ljava.lang.String;@71d42d3c is present<br/>
+<br>Clicked on SiteList<br/>
+<br>[Ljava.lang.String;@4f215ce is present<br/>
+<br>Entered value citroen-annecy.stg-eudemosite.com<br/>
+<br>[Ljava.lang.String;@1ae5a778 is present<br/>
+<br>Clicked on CITROËN ANNECY<br/>
+<br>[Ljava.lang.String;@7bdd2521 is present<br/>
+<br>Clicked on Site Builder<br/>
+<br>[Ljava.lang.String;@2b41f08 is present<br/>
+<br>Clicked on Page Builder<br/>
+<br>[Ljava.lang.String;@695fce48 is present<br/>
+<br>Clicked on Add new Page<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.r1v2.backend.pagebuilder.module.ScenarioSpecialPage@2d8f65a4</td></tr>
+<tr>
+<td title='com.r1v2.backend.pagebuilder.module.ScenarioSpecialPage.testPG_2()'><b>testPG_2</b><br>Test class: com.r1v2.backend.pagebuilder.module.ScenarioSpecialPage<br/>
+<a href="#Output-489984296" onClick='toggleBox("Output-489984296", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-489984296" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-489984296">
+<br>[Ljava.lang.String;@3db62f33 is present<br/>
+<br>Element Displayed <br/>
+<br>CampaignPage Page RadioButton default is  selected on  PageBuilder page<br/>
+<br>[Ljava.lang.String;@60b404c is present<br/>
+<br>Clicked on <br/>
+<br>CampaignPage Page RadioButton  is  selected on  PageBuilder page<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.pagebuilder.module.ScenarioSpecialPage@2d8f65a4</td></tr>
+<tr>
+<td title='com.r1v2.backend.pagebuilder.module.ScenarioSpecialPage.testPG_3()'><b>testPG_3</b><br>Test class: com.r1v2.backend.pagebuilder.module.ScenarioSpecialPage<br/>
+<a href="#Output-1050506893" onClick='toggleBox("Output-1050506893", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1050506893" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1050506893">
+<br>[Ljava.lang.String;@6d4124f4 is present<br/>
+<br>Element Displayed *<br/>
+<br>Field is mandatory<br/>
+<br>[Ljava.lang.String;@4a4314a7 is present<br/>
+<br>Clicked on <br/>
+<br>Alert Popup is Display<br/>
+<br>[Ljava.lang.String;@422dde75 is present<br/>
+<br>Entered value special-pagefr<br/>
+<br>[Ljava.lang.String;@6b4800d8 is present<br/>
+<br>Element Displayed *<br/>
+<br>Field is mandatory<br/>
+<br>[Ljava.lang.String;@20ee7336 is present<br/>
+<br>Clicked on <br/>
+<br>Alert Popup is Display<br/>
+<br>[Ljava.lang.String;@1b3088b1 is present<br/>
+<br>Entered value special-page-fr<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.pagebuilder.module.ScenarioSpecialPage@2d8f65a4</td></tr>
+<tr>
+<td title='com.r1v2.backend.pagebuilder.module.ScenarioSpecialPage.testPG_5()'><b>testPG_5</b><br>Test class: com.r1v2.backend.pagebuilder.module.ScenarioSpecialPage<br/>
+<a href="#Output-1359022626" onClick='toggleBox("Output-1359022626", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1359022626" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1359022626">
+<br>[Ljava.lang.String;@56f2ae8b is present<br/>
+<br>Clicked on Select Form Category
+Evènements APV
+Sites concessions LOCAL APV (générique)
+Offre promotionnelle APV (Constructeur)
+Offre promotionnelle APV (Locale)
+Sites concessions LOCAL AUTRE (générique)
+Sites concessions RH
+Offre promotionnelle AUTRE (Locale)
+Sites concessions LOCAL PR (générique)
+Offre promotionnelle PR (Constructeur)
+Offre promotionnelle PR (Locale)
+Offre promotionnelle VN (Constructeur)
+Offre promotionnelle VN (Locale)
+Evènements VN
+Sites concessions LOCAL VN (générique)
+Evènements VO
+Offre promotionnelle VD (Locale)
+Sites concessions LOCAL VO (générique)
+Sites concessions LOCAL VD (générique)
+Offre promotionnelle VO (Constructeur)
+Offre promotionnelle VO (Locale)<br/>
+<br>[Ljava.lang.String;@6a115e8c is present<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.r1v2.backend.pagebuilder.module.ScenarioSpecialPage@2d8f65a4</td></tr>
+</table><p>
+</body>
+</html>
