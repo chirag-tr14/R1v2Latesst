@@ -33,8 +33,10 @@ public class Utility {
 
 	public static final Logger logger = LogManager.getLogger(Utility.class);
 
+	
+	
+	//This Meethod Returns Waiting for ProcessQue
 	public static void processQue(String query) throws InterruptedException {
-
 		DataBase database = new DataBase();
 		BaseTest t = new BaseTest();
 		Map<String, String> td = t.getTestDataProperties();
@@ -59,18 +61,7 @@ public class Utility {
 	
 	
 	
-	public static void cleanupData(String query) throws InterruptedException {
-
-		DataBase database = new DataBase();
-		BaseTest t = new BaseTest();
-		Map<String, String> td = t.getTestDataProperties();
-		PropertyFileUtil propUtil = new PropertyFileUtil("config");
-		String regiondatabase = td.get(propUtil.getString("region") + ".env");
-		//database.executeSQLQuery(regiondatabase, query);
-		database.execute(regiondatabase, query);
-	          
-	   }
-	
+		
 
 	// This Method return Current Date
 	public static String getTodaysDate(String format) {
@@ -81,7 +72,7 @@ public class Utility {
 	// public static DateFormat dateformat = new
 	// SimpleDateFormat("yyyy_MM_dd_hh_mm_ss");
 	
-	
+	// This method return Capturing screenshot
 	public static String captureScreenshot(WebDriver driver, String screenshotName) {
 
 		String datename = new SimpleDateFormat("yyyy_MM_dd_hh_mm_ss").format(new Date());
@@ -104,7 +95,7 @@ public class Utility {
 	
 	
 	
-	
+	// This method return Capturing screenshot
 	public static String captureScreenshots(WebDriver driver, String Destination, String screenshotName) {
 		String path = System.getProperty("user.dir");
 		String ScreenshotsPath = path + "\\ScreenShots\\" + Destination + "\\";
@@ -121,50 +112,4 @@ public class Utility {
 	}
 	
 	
-	
-	
-	
-	
-	public String generateRandomEmailAddress(String domain) {
-		String emailAddress = "";
-		// Generate random email address
-		String alphabet = "abcdefghijklmnopqrstuvwxyz";
-		while (emailAddress.length() < 5) {
-			int character = (int) (Math.random() * 26);
-			emailAddress += alphabet.substring(character, character + 1);
-		}
-		emailAddress += Integer.valueOf((int) (Math.random() * 99)).toString();
-		emailAddress += "@" + domain;
-		return emailAddress;
-	}
-
-	public static String stripNonDigits(final CharSequence input) {
-		final StringBuilder sb = new StringBuilder(input.length());
-		for (int i = 0; i < input.length(); i++) {
-			final char c = input.charAt(i);
-			if (c > 47 && c < 58) {
-				sb.append(c);
-			}
-		}
-		return sb.toString();
-	}
-
-	public static String getRandomString(int len) {
-		final String AB = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-		Random rnd = new Random();
-		StringBuilder sb = new StringBuilder(len);
-		for (int i = 0; i < len; i++)
-			sb.append(AB.charAt(rnd.nextInt(AB.length())));
-		return sb.toString();
-	}
-
-	public static String getRandomAlphabet(int len) {
-		final String AB = "qwertyuiopasdfghjklzxcvbnmABCDEFGHIJKLMNOPQRSTUVWXYZ";
-		Random rnd = new Random();
-		StringBuilder sb = new StringBuilder(len);
-		for (int i = 0; i < len; i++)
-			sb.append(AB.charAt(rnd.nextInt(AB.length())));
-		return sb.toString();
-	}
-
 }
